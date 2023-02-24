@@ -1,0 +1,26 @@
+{
+	x: -4.5d,
+	y: 0.0d,
+	dependencies: [
+		"cb90834d"
+	],
+	tasks: [{
+		uid: "8444ebd4",
+		type: "item",
+		items: [{
+			id: "simplyjetpacks:itemjetpack",
+			Damage: 19s,
+			tag: {
+				Energy: 0,
+				JetpackParticle: 0
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2f747b2d",
+		type: "item",
+		item: "thermalfoundation:material 1 167",
+		count: 16
+	}]
+}

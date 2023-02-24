@@ -1,0 +1,41 @@
+{
+    "metalfabcasing": [
+        "contenttweaker:titanium_machine_casing",
+        "modularmachinery:blockenergyinputhatch",
+        "modularmachinery:blockfluidinputhatch",
+        "modularmachinery:blockinputbus",
+        "modularmachinery:blockoutputbus"
+    ],
+    
+    "advmetalfabcasing": [
+        "contenttweaker:osmiridium_machine_casing",
+        "modularmachinery:blockenergyinputhatch",
+        "modularmachinery:blockfluidinputhatch",
+        "modularmachinery:blockinputbus",
+        "modularmachinery:blockoutputbus"
+    ],
+    
+    "advassemblercasing": [
+        "contenttweaker:tungstensteel_machine_casing",
+        "modularmachinery:blockenergyinputhatch",
+        "modularmachinery:blockfluidinputhatch",
+        "modularmachinery:blockinputbus",
+        "modularmachinery:blockoutputbus"
+    ],
+    
+    "primalfurnacecasing": [
+        "contenttweaker:adamantium_machine_casing",
+        "modularmachinery:blockenergyinputhatch",
+        "modularmachinery:blockfluidinputhatch",
+        "modularmachinery:blockinputbus",
+        "modularmachinery:blockoutputbus"
+    ],
+    
+    "cosmicforgecasing": [
+        "contenttweaker:cosmic_machine_casing",
+        "modularmachinery:blockenergyinputhatch",
+        "modularmachinery:blockfluidinputhatch",
+        "modularmachinery:blockinputbus",
+        "modularmachinery:blockoutputbus"
+    ]
+}

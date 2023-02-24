@@ -1,0 +1,26 @@
+{
+	x: -3.5d,
+	y: 0.0d,
+	dependencies: [
+		"efaf7c8b"
+	],
+	tasks: [{
+		uid: "1279d379",
+		type: "item",
+		items: [{
+			id: "simplyjetpacks:itemjetpack",
+			Damage: 10s,
+			tag: {
+				Energy: 0,
+				JetpackParticle: 0
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7b7e8ced",
+		type: "item",
+		item: "enderio:item_alloy_ingot 1 2",
+		count: 16
+	}]
+}

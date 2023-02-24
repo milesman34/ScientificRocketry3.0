@@ -1,0 +1,20 @@
+{
+	x: 4.5d,
+	y: 1.0d,
+	dependencies: [
+		"e95a64cc"
+	],
+	tasks: [{
+		uid: "fdec784f",
+		type: "item",
+		items: [{
+			item: "aeadditions:storage.component 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "8b93f414",
+		type: "item",
+		item: "contenttweaker:cobalt_ingot",
+		count: 16
+	}]
+}

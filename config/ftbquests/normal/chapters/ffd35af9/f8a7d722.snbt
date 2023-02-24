@@ -1,0 +1,26 @@
+{
+	x: -3.5d,
+	y: 2.0d,
+	dependencies: [
+		"5616efba"
+	],
+	tasks: [{
+		uid: "5f2ffe69",
+		type: "item",
+		items: [{
+			id: "simplyjetpacks:itemjetpack",
+			Damage: 15s,
+			tag: {
+				Energy: 0,
+				JetpackParticle: 0
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ae7ec54e",
+		type: "item",
+		item: "simplyjetpacks:metaitemmods 1 12",
+		count: 16
+	}]
+}
