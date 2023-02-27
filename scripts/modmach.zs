@@ -4,34 +4,34 @@ import crafttweaker.item.IItemStack;
 recipes.remove(<modularmachinery:blockcasing:0> * 2);
 
 recipes.addShaped(<modularmachinery:blockcasing:0> * 2, [
-    [<ore:plateCrystallineAlloy>, <ore:ingotModularium>, <ore:plateCrystallineAlloy>], 
-	[<ore:ingotModularium>, <ore:circuitElite>, <ore:ingotModularium>], 
-	[<ore:plateCrystallineAlloy>, <ore:ingotModularium>, <ore:plateCrystallineAlloy>]
+	[<ore:plateCrystallineAlloy>, <ore:circuitElite>, <ore:plateCrystallineAlloy>], 
+	[<ore:ingotModularium>, <rftools:machine_frame>, <ore:ingotModularium>], 
+	[<ore:plateCrystallineAlloy>, <ore:gearDiamatineEmpowered>, <ore:plateCrystallineAlloy>]
 ]);
 
 // Machine controller
 recipes.remove(<modularmachinery:blockcontroller>);
 
 recipes.addShaped(<modularmachinery:blockcontroller>, [
-    [<ore:gearElectrumFlux>, <ore:blockVividAlloy>, <ore:gearElectrumFlux>], 
-	[<ore:circuitUltimate>, <modularmachinery:blockcasing:0>, <ore:circuitUltimate>], 
+	[<ore:gearEmeradicEmpowered>, <appliedenergistics2:controller>, <ore:gearEmeradicEmpowered>], 
+	[<ore:circuitUltimate>, <modularmachinery:blockcasing>, <ore:circuitUltimate>], 
 	[<ore:gearDiamatineEmpowered>, <thermalexpansion:frame:146>, <ore:gearDiamatineEmpowered>]
 ]);
 
 // Machine vent
 recipes.addShaped(<modularmachinery:blockcasing:1>, [
-    [<ore:ingotModularium>, <enderio:block_end_iron_bars>, <ore:ingotModularium>], 
+    [<ore:plateModularium>, <enderio:block_end_iron_bars>, <ore:plateModularium>], 
 	[<enderio:block_end_iron_bars>, <modularmachinery:blockcasing:0>, <enderio:block_end_iron_bars>], 
-	[<ore:ingotModularium>, <enderio:block_end_iron_bars>, <ore:ingotModularium>]
+	[<ore:plateModularium>, <enderio:block_end_iron_bars>, <ore:plateModularium>]
 ]);
 
 // Firebox casing
 recipes.remove(<modularmachinery:blockcasing:2> * 2);
 
 recipes.addShaped(<modularmachinery:blockcasing:2>, [
-    [<ore:ingotThermoconducting>, <ore:gearEnrichedSignalum>, <ore:ingotThermoconducting>], 
+    [<ore:plateThermoconducting>, <ore:gearEnrichedSignalum>, <ore:plateThermoconducting>], 
 	[<ore:gearRestoniaEmpowered>, <modularmachinery:blockcasing>, <ore:gearRestoniaEmpowered>], 
-	[<ore:ingotThermoconducting>, <ore:gearEnrichedSignalum>, <ore:ingotThermoconducting>]
+	[<ore:plateThermoconducting>, <ore:gearEnrichedSignalum>, <ore:plateThermoconducting>]
 ]);
 
 // Reinforced machine casing
@@ -47,56 +47,54 @@ recipes.addShaped(<modularmachinery:blockcasing:4> * 2, [
 mods.nuclearcraft.Assembler.addRecipe(<mekanism:controlcircuit:3> * 64, <mekanism:controlcircuit:3> * 64, <enderio:item_capacitor_stellar> * 8, <extendedcrafting:material:12>, <modularmachinery:blockcasing:5>, 64.0);
 
 // Advanced assembler
-// Replace adamantium blocks w/ assembler casings
 mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:itemblueprint>.withTag({ dynamicmachine: "modularmachinery:advanced_assembler" }), [
 	[<contenttweaker:tungstensteel_machine_casing>, <ore:blockTungstensteel>, <ore:blockAdamantium>, <ore:blockAdamantium>, <ore:blockAdamantium>, <ore:blockTungstensteel>, <contenttweaker:tungstensteel_machine_casing>], 
-	[<ore:blockTungstensteel>, <extendedcrafting:material:12>, <ore:ingotCrystalMatrix>, <ore:ingotCrystalMatrix>, <ore:ingotCrystalMatrix>, <extendedcrafting:material:12>, <ore:blockTungstensteel>], 
-	[<ore:blockAdamantium>, <environmentaltech:structure_frame_5>, <environmentaltech:structure_frame_5>, <environmentaltech:structure_frame_5>, <environmentaltech:structure_frame_5>, <environmentaltech:structure_frame_5>, <ore:blockAdamantium>], 
-	[<ore:blockAdamantium>, <environmentaltech:structure_frame_5>, <modularmachinery:blockcasing:5>, <modularmachinery:blockcontroller>, <modularmachinery:blockcasing:5>, <environmentaltech:structure_frame_5>, <ore:blockAdamantium>], 
-	[<ore:blockAdamantium>, <environmentaltech:structure_frame_5>, <environmentaltech:structure_frame_5>, <environmentaltech:structure_frame_5>, <environmentaltech:structure_frame_5>, <environmentaltech:structure_frame_5>, <ore:blockAdamantium>], 
-	[<ore:blockTungstensteel>, <extendedcrafting:material:12>, <ore:ingotCrystalMatrix>, <ore:ingotCrystalMatrix>, <ore:ingotCrystalMatrix>, <extendedcrafting:material:12>, <ore:blockTungstensteel>], 
+	[<ore:blockTungstensteel>, <extendedcrafting:material:12>, <ore:plateCrystalMatrix>, <environmentaltech:structure_frame_5>, <ore:plateCrystalMatrix>, <extendedcrafting:material:12>, <ore:blockTungstensteel>], 
+	[<ore:blockAdamantium>, <extendedcrafting:material:40>, <environmentaltech:structure_frame_5>, <nuclearcraft:tritium_lamp>, <environmentaltech:structure_frame_5>, <extendedcrafting:material:40>, <ore:blockAdamantium>], 
+	[<ore:blockAdamantium>, <environmentaltech:structure_frame_5>, <modularmachinery:blockcasing:5>, <thermalexpansion:frame:148>, <modularmachinery:blockcasing:5>, <environmentaltech:structure_frame_5>, <ore:blockAdamantium>], 
+	[<ore:blockAdamantium>, <extendedcrafting:material:40>, <environmentaltech:structure_frame_5>, <nuclearcraft:tritium_lamp>, <environmentaltech:structure_frame_5>, <extendedcrafting:material:40>, <ore:blockAdamantium>], 
+	[<ore:blockTungstensteel>, <extendedcrafting:material:12>, <ore:plateCrystalMatrix>, <environmentaltech:structure_frame_5>, <ore:plateCrystalMatrix>, <extendedcrafting:material:12>, <ore:blockTungstensteel>], 
 	[<contenttweaker:tungstensteel_machine_casing>, <ore:blockTungstensteel>, <ore:blockAdamantium>, <ore:blockAdamantium>, <ore:blockAdamantium>, <ore:blockTungstensteel>, <contenttweaker:tungstensteel_machine_casing>]
 ]);
 
 // Primal furnace
 mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:itemblueprint>.withTag({ dynamicmachine: "modularmachinery:primal_furnace" }), [
 	[<contenttweaker:adamantium_machine_casing>, <contenttweaker:adamantium_machine_casing>, <contenttweaker:adamantium_machine_casing>, <contenttweaker:adamantium_machine_casing>, <contenttweaker:adamantium_machine_casing>, <contenttweaker:adamantium_machine_casing>, <contenttweaker:adamantium_machine_casing>], 
-	[<ore:dustMana>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:dustMana>], 
-	[<environmentaltech:structure_frame_6>, <ore:ingotCrystalMatrix>, <ore:plateAdamantium>, <enderio:item_capacitor_stellar>, <ore:plateAdamantium>, <ore:ingotCrystalMatrix>, <environmentaltech:structure_frame_6>], 
-	[<environmentaltech:structure_frame_6>, <ore:ingotCrystalMatrix>, <ore:plateAdamantium>, <environmentaltech:void_ore_miner_cont_5>, <ore:plateAdamantium>, <ore:ingotCrystalMatrix>, <environmentaltech:structure_frame_6>], 
-	[<environmentaltech:structure_frame_6>, <ore:ingotCrystalMatrix>, <ore:plateAdamantium>, <enderio:item_capacitor_stellar>, <ore:plateAdamantium>, <ore:ingotCrystalMatrix>, <environmentaltech:structure_frame_6>], 
-	[<ore:dustMana>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>, <ore:dustMana>], 
+	[<environmentaltech:structure_frame_6>, <ore:ingotUltimate>, <mekanism:machineblock2:7>, <mekanism:machineblock2:6>, <mekanism:machineblock2:8>, <ore:ingotUltimate>, <environmentaltech:structure_frame_6>], 
+	[<environmentaltech:structure_frame_6>, <ore:ingotUltimate>, <ore:plateAdamantium>, <enderio:item_capacitor_stellar>, <ore:plateAdamantium>, <ore:ingotUltimate>, <environmentaltech:structure_frame_6>], 
+	[<environmentaltech:structure_frame_6>, <ore:ingotUltimate>, <enderio:item_capacitor_stellar>, <environmentaltech:void_ore_miner_cont_5>, <enderio:item_capacitor_stellar>, <ore:ingotUltimate>, <environmentaltech:structure_frame_6>], 
+	[<environmentaltech:structure_frame_6>, <ore:ingotUltimate>, <ore:plateAdamantium>, <enderio:item_capacitor_stellar>, <ore:plateAdamantium>, <ore:ingotUltimate>, <environmentaltech:structure_frame_6>], 
+	[<environmentaltech:structure_frame_6>, <ore:ingotUltimate>, <mekanism:machineblock2:8>, <mekanism:machineblock2:6>, <mekanism:machineblock2:7>, <ore:ingotUltimate>, <environmentaltech:structure_frame_6>], 
 	[<contenttweaker:adamantium_machine_casing>, <contenttweaker:adamantium_machine_casing>, <contenttweaker:adamantium_machine_casing>, <contenttweaker:adamantium_machine_casing>, <contenttweaker:adamantium_machine_casing>, <contenttweaker:adamantium_machine_casing>, <contenttweaker:adamantium_machine_casing>]
 ]);
 
 // Metallurgic fabricator
 recipes.addShaped(<modularmachinery:itemblueprint>.withTag({ dynamicmachine: "modularmachinery:metallurgic_fabricator" }), [
-	[<ore:ingotTitanium>, <ore:dustMana>, <ore:ingotTitanium>], 
-	[<ore:circuitUltimate>, <actuallyadditions:block_crystal_empowered:2>, <ore:circuitUltimate>], 
-	[<ore:ingotTitanium>, <ore:dustMana>, <ore:ingotTitanium>]
+	[<ore:plateTitanium>, <ore:dustMana>, <ore:plateTitanium>], 
+	[<advancedrocketry:ic:3>, <actuallyadditions:block_misc:8>, <advancedrocketry:ic:3>], 
+	[<ore:plateTitanium>, <ore:dustMana>, <ore:plateTitanium>]
 ]);
 
 // Adv. Metallurgic Fabricator
 mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:itemblueprint>.withTag({ dynamicmachine: "modularmachinery:advanced_metallurgic_fabricator" }), [
-	[<modularmachinery:blockcasing:4>, <contenttweaker:osmiridium_ingot>, <contenttweaker:osmiridium_ingot>, <contenttweaker:osmiridium_ingot>, <modularmachinery:blockcasing:4>], 
-	[<contenttweaker:osmiridium_ingot>, <extendedcrafting:material:11>, <ore:gearMithril>, <extendedcrafting:material:11>, <contenttweaker:osmiridium_ingot>], 
-	[<contenttweaker:osmiridium_ingot>, <ore:gearMithril>, <contenttweaker:manyullyn_block>, <ore:gearMithril>, <contenttweaker:osmiridium_ingot>], 
-	[<contenttweaker:osmiridium_ingot>, <extendedcrafting:material:11>, <ore:gearMithril>, <extendedcrafting:material:11>, <contenttweaker:osmiridium_ingot>], 
-	[<modularmachinery:blockcasing:4>, <contenttweaker:osmiridium_ingot>, <contenttweaker:osmiridium_ingot>, <contenttweaker:osmiridium_ingot>, <modularmachinery:blockcasing:4>]
+	[<modularmachinery:blockcasing:4>, <ore:plateOsmiridium>, <ore:plateOsmiridium>, <ore:plateOsmiridium>, <modularmachinery:blockcasing:4>], 
+	[<ore:plateOsmiridium>, <extendedcrafting:material:11>, <mekanism:machineblock2:14>, <extendedcrafting:material:11>, <ore:plateOsmiridium>], 
+	[<ore:plateOsmiridium>, <mekanism:basicblock2:5>, <thermalexpansion:frame:147>, <mekanism:basicblock2:5>, <ore:plateOsmiridium>], 
+	[<ore:plateOsmiridium>, <extendedcrafting:material:11>, <mekanismgenerators:generator:12>, <extendedcrafting:material:11>, <ore:plateOsmiridium>], 
+	[<modularmachinery:blockcasing:4>, <ore:plateOsmiridium>, <ore:plateOsmiridium>, <ore:plateOsmiridium>, <modularmachinery:blockcasing:4>]
 ]);
 
 // Cosmic forge
-
 mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:itemblueprint>.withTag({ dynamicmachine: "modularmachinery:cosmic_forge" }), [
-	[<contenttweaker:cosmic_machine_casing>, <contenttweaker:cosmic_machine_casing>, <environmentaltech:structure_frame_6>, <environmentaltech:structure_frame_6>, <environmentaltech:structure_frame_6>, <environmentaltech:structure_frame_6>, <environmentaltech:structure_frame_6>, <contenttweaker:cosmic_machine_casing>, <contenttweaker:cosmic_machine_casing>], 
-	[<contenttweaker:cosmic_machine_casing>, <enderio:item_endergy_conduit:11>, <enderio:item_endergy_conduit:11>, <ore:crystalAdamantium>, <mekanismgenerators:reactor:1>, <ore:crystalAdamantium>, <enderio:item_endergy_conduit:11>, <enderio:item_endergy_conduit:11>, <contenttweaker:cosmic_machine_casing>], 
-	[<environmentaltech:structure_frame_6>, <enderio:item_endergy_conduit:11>, <modularmachinery:blockcasing:5>, <aeadditions:storage.component:13>, <extendedcrafting:material:40>, <aeadditions:storage.component:13>, <modularmachinery:blockcasing:5>, <enderio:item_endergy_conduit:11>, <environmentaltech:structure_frame_6>], 
-	[<environmentaltech:structure_frame_6>, <ore:crystalAdamantium>, <aeadditions:storage.component:3>, <ore:blockMithril>, <extendedcrafting:material:13>, <ore:blockMithril>, <aeadditions:storage.component:3>, <ore:crystalAdamantium>, <environmentaltech:structure_frame_6>], 
-	[<environmentaltech:structure_frame_6>, <mekanismgenerators:reactor:1>, <extendedcrafting:material:40>, <extendedcrafting:material:13>, <environmentaltech:void_ore_miner_cont_6>, <extendedcrafting:material:13>, <extendedcrafting:material:40>, <mekanismgenerators:reactor:1>, <environmentaltech:structure_frame_6>], 
-	[<environmentaltech:structure_frame_6>, <ore:crystalAdamantium>, <aeadditions:storage.component:3>, <ore:blockMithril>, <extendedcrafting:material:13>, <ore:blockMithril>, <aeadditions:storage.component:3>, <ore:crystalAdamantium>, <environmentaltech:structure_frame_6>], 
-	[<environmentaltech:structure_frame_6>, <enderio:item_endergy_conduit:11>, <modularmachinery:blockcasing:5>, <aeadditions:storage.component:13>, <extendedcrafting:material:40>, <aeadditions:storage.component:13>, <modularmachinery:blockcasing:5>, <enderio:item_endergy_conduit:11>, <environmentaltech:structure_frame_6>], 
-	[<contenttweaker:cosmic_machine_casing>, <enderio:item_endergy_conduit:11>, <enderio:item_endergy_conduit:11>, <ore:crystalAdamantium>, <mekanismgenerators:reactor:1>, <ore:crystalAdamantium>, <enderio:item_endergy_conduit:11>, <enderio:item_endergy_conduit:11>, <contenttweaker:cosmic_machine_casing>], 
-	[<contenttweaker:cosmic_machine_casing>, <contenttweaker:cosmic_machine_casing>, <environmentaltech:structure_frame_6>, <environmentaltech:structure_frame_6>, <environmentaltech:structure_frame_6>, <environmentaltech:structure_frame_6>, <environmentaltech:structure_frame_6>, <contenttweaker:cosmic_machine_casing>, <contenttweaker:cosmic_machine_casing>]
+	[<contenttweaker:cosmic_machine_casing>, <contenttweaker:cosmic_machine_casing>, <contenttweaker:cosmic_machine_casing>, <contenttweaker:cosmic_machine_casing>, <contenttweaker:cosmic_machine_casing>, <contenttweaker:cosmic_machine_casing>, <contenttweaker:cosmic_machine_casing>, <contenttweaker:cosmic_machine_casing>, <contenttweaker:cosmic_machine_casing>], 
+	[<contenttweaker:cosmic_machine_casing>, <enderio:item_endergy_conduit:11>, <enderio:item_endergy_conduit:11>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <enderio:item_endergy_conduit:11>, <enderio:item_endergy_conduit:11>, <contenttweaker:cosmic_machine_casing>], 
+	[<contenttweaker:cosmic_machine_casing>, <enderio:item_endergy_conduit:11>, <modularmachinery:blockcasing:5>, <ore:crystalAdamantium>, <aeadditions:storage.component:3>, <ore:crystalAdamantium>, <modularmachinery:blockcasing:5>, <enderio:item_endergy_conduit:11>, <contenttweaker:cosmic_machine_casing>], 
+	[<contenttweaker:cosmic_machine_casing>, <ore:plateCosmicNeutronium>, <ore:crystalAdamantium>, <aeadditions:storage.component:13>, <extendedcrafting:material:13>, <aeadditions:storage.component:13>, <ore:crystalAdamantium>, <ore:plateCosmicNeutronium>, <contenttweaker:cosmic_machine_casing>], 
+	[<contenttweaker:cosmic_machine_casing>, <ore:plateCosmicNeutronium>, <aeadditions:storage.component:3>, <extendedcrafting:material:13>, <avaritia:endest_pearl>, <extendedcrafting:material:13>, <aeadditions:storage.component:3>, <ore:plateCosmicNeutronium>, <contenttweaker:cosmic_machine_casing>], 
+	[<contenttweaker:cosmic_machine_casing>, <ore:plateCosmicNeutronium>, <ore:crystalAdamantium>, <aeadditions:storage.component:13>, <extendedcrafting:material:13>, <aeadditions:storage.component:13>, <ore:crystalAdamantium>, <ore:plateCosmicNeutronium>, <contenttweaker:cosmic_machine_casing>], 
+	[<contenttweaker:cosmic_machine_casing>, <enderio:item_endergy_conduit:11>, <modularmachinery:blockcasing:5>, <ore:crystalAdamantium>, <aeadditions:storage.component:3>, <ore:crystalAdamantium>, <modularmachinery:blockcasing:5>, <enderio:item_endergy_conduit:11>, <contenttweaker:cosmic_machine_casing>], 
+	[<contenttweaker:cosmic_machine_casing>, <enderio:item_endergy_conduit:11>, <enderio:item_endergy_conduit:11>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <enderio:item_endergy_conduit:11>, <enderio:item_endergy_conduit:11>, <contenttweaker:cosmic_machine_casing>], 
+	[<contenttweaker:cosmic_machine_casing>, <contenttweaker:cosmic_machine_casing>, <contenttweaker:cosmic_machine_casing>, <contenttweaker:cosmic_machine_casing>, <contenttweaker:cosmic_machine_casing>, <contenttweaker:cosmic_machine_casing>, <contenttweaker:cosmic_machine_casing>, <contenttweaker:cosmic_machine_casing>, <contenttweaker:cosmic_machine_casing>]
 ]);
 
 // Normal input bus

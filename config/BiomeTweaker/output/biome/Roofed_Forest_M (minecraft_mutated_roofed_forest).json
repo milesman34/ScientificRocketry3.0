@@ -22,8 +22,8 @@
   "Dictionary Types": [
     "MOUNTAIN",
     "FOREST",
-    "SPOOKY",
     "DENSE",
+    "SPOOKY",
     "RARE"
   ],
   "BiomeManager Entries": {},

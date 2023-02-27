@@ -192,7 +192,7 @@ recipes.addShaped(<environmentaltech:void_ore_miner_cont_2>, [
 // T3 void ore miner (200M RF)
 recipes.remove(<environmentaltech:void_ore_miner_cont_3>);
 
-mods.extendedcrafting.CombinationCrafting.addRecipe(<environmentaltech:void_ore_miner_cont_3>, 200000000, 1000000, <environmentaltech:void_ore_miner_cont_2>, [
+mods.extendedcrafting.CombinationCrafting.addRecipe(<environmentaltech:void_ore_miner_cont_3>, 200000000, 10000000, <environmentaltech:void_ore_miner_cont_2>, [
     <environmentaltech:kyronite>,
     <environmentaltech:kyronite>,
     <environmentaltech:kyronite>,
@@ -271,7 +271,7 @@ recipes.addShaped(<environmentaltech:void_res_miner_cont_2>, [
 // T3 void resource miner (200M RF)
 recipes.remove(<environmentaltech:void_res_miner_cont_3>);
 
-mods.extendedcrafting.CombinationCrafting.addRecipe(<environmentaltech:void_res_miner_cont_3>, 200000000, 1000000, <environmentaltech:void_res_miner_cont_2>, [
+mods.extendedcrafting.CombinationCrafting.addRecipe(<environmentaltech:void_res_miner_cont_3>, 200000000, 10000000, <environmentaltech:void_res_miner_cont_2>, [
     <environmentaltech:kyronite>,
     <environmentaltech:kyronite>,
     <environmentaltech:kyronite>,
@@ -341,7 +341,7 @@ recipes.addShaped(<environmentaltech:void_botanic_miner_cont_2>, [
 // T3 void botanic miner (200M RF)
 recipes.remove(<environmentaltech:void_botanic_miner_cont_3>);
 
-mods.extendedcrafting.CombinationCrafting.addRecipe(<environmentaltech:void_botanic_miner_cont_3>, 200000000, 1000000, <environmentaltech:void_botanic_miner_cont_2>, [
+mods.extendedcrafting.CombinationCrafting.addRecipe(<environmentaltech:void_botanic_miner_cont_3>, 200000000, 10000000, <environmentaltech:void_botanic_miner_cont_2>, [
     <environmentaltech:kyronite>,
     <environmentaltech:kyronite>,
     <environmentaltech:kyronite>,
@@ -423,7 +423,7 @@ recipes.replaceAllOccurences(<ore:blockLapis>, <actuallyadditions:block_crystal_
 // T3 solar (250M RF)
 recipes.remove(<environmentaltech:solar_cont_3>);
 
-mods.extendedcrafting.CombinationCrafting.addRecipe(<environmentaltech:solar_cont_3>, 250000000, 1000000, <environmentaltech:solar_cont_2>, [
+mods.extendedcrafting.CombinationCrafting.addRecipe(<environmentaltech:solar_cont_3>, 250000000, 10000000, <environmentaltech:solar_cont_2>, [
     <environmentaltech:kyronite>,
     <environmentaltech:kyronite>,
     <environmentaltech:kyronite>,
@@ -439,7 +439,7 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<environmentaltech:solar_con
 // T4 solar (500M RF)
 recipes.remove(<environmentaltech:solar_cont_4>);
 
-mods.extendedcrafting.CombinationCrafting.addRecipe(<environmentaltech:solar_cont_4>, 500000000, 1000000, <environmentaltech:solar_cont_3>, [
+mods.extendedcrafting.CombinationCrafting.addRecipe(<environmentaltech:solar_cont_4>, 500000000, 10000000, <environmentaltech:solar_cont_3>, [
     <environmentaltech:pladium>,
     <environmentaltech:pladium>,
     <environmentaltech:pladium>,
@@ -455,7 +455,7 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<environmentaltech:solar_con
 // T5 solar (1B RF)
 recipes.remove(<environmentaltech:solar_cont_5>);
 
-mods.extendedcrafting.CombinationCrafting.addRecipe(<environmentaltech:solar_cont_5>, 1000000000, 1000000, <environmentaltech:solar_cont_4>, [
+mods.extendedcrafting.CombinationCrafting.addRecipe(<environmentaltech:solar_cont_5>, 1000000000, 10000000, <environmentaltech:solar_cont_4>, [
     <environmentaltech:ionite>,
     <environmentaltech:ionite>,
     <environmentaltech:ionite>,
@@ -471,7 +471,7 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<environmentaltech:solar_con
 // T6 solar (2147483647 RF)
 recipes.remove(<environmentaltech:solar_cont_6>);
 
-mods.extendedcrafting.CombinationCrafting.addRecipe(<environmentaltech:solar_cont_6>, 2147483647, 1000000, <environmentaltech:solar_cont_5>, [
+mods.extendedcrafting.CombinationCrafting.addRecipe(<environmentaltech:solar_cont_6>, 2147483647, 10000000, <environmentaltech:solar_cont_5>, [
     <environmentaltech:aethium>,
     <environmentaltech:aethium>,
     <environmentaltech:aethium>,

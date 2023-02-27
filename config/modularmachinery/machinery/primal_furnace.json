@@ -24,7 +24,6 @@
             "x": -1,
             "y": 0,
             "z": 0,
-            "nbt": {"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"shieldingRadResistance":"0.0d","radiationResistance":"0.0d"}},"id":"environmentaltech:structure_frame_6.tile"},
             "elements": [
                 "environmentaltech:structure_frame_6@0"
             ]
@@ -65,7 +64,6 @@
             "x": 1,
             "y": 0,
             "z": 0,
-            "nbt": {"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"shieldingRadResistance":"0.0d","radiationResistance":"0.0d"}},"id":"environmentaltech:structure_frame_6.tile"},
             "elements": [
                 "environmentaltech:structure_frame_6@0"
             ]
@@ -74,7 +72,6 @@
             "x": -1,
             "y": 0,
             "z": 2,
-            "nbt": {"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"shieldingRadResistance":"0.0d","radiationResistance":"0.0d"}},"id":"environmentaltech:structure_frame_6.tile"},
             "elements": [
                 "environmentaltech:structure_frame_6@0"
             ]
@@ -107,7 +104,6 @@
             "x": 0,
             "y": 0,
             "z": 2,
-            "nbt": {"casingColor":"8034751","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"shieldingRadResistance":"0.0d","radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
             "elements": [
                 "modularmachinery:blockcasing@5"
             ]
@@ -132,7 +128,6 @@
             "x": 1,
             "y": 0,
             "z": 2,
-            "nbt": {"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"shieldingRadResistance":"0.0d","radiationResistance":"0.0d"}},"id":"environmentaltech:structure_frame_6.tile"},
             "elements": [
                 "environmentaltech:structure_frame_6@0"
             ]
@@ -213,7 +208,6 @@
             "x": 0,
             "y": -1,
             "z": 0,
-            "nbt": {"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"shieldingRadResistance":"0.0d","radiationResistance":"0.0d"}},"id":"environmentaltech:structure_frame_6.tile"},
             "elements": [
                 "environmentaltech:structure_frame_6@0"
             ]
@@ -222,7 +216,6 @@
             "x": 0,
             "y": 1,
             "z": 0,
-            "nbt": {"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"shieldingRadResistance":"0.0d","radiationResistance":"0.0d"}},"id":"environmentaltech:structure_frame_6.tile"},
             "elements": [
                 "environmentaltech:structure_frame_6@0"
             ]
@@ -263,7 +256,6 @@
             "x": 0,
             "y": 1,
             "z": 2,
-            "nbt": {"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"shieldingRadResistance":"0.0d","radiationResistance":"0.0d"}},"id":"environmentaltech:structure_frame_6.tile"},
             "elements": [
                 "environmentaltech:structure_frame_6@0"
             ]
@@ -272,7 +264,6 @@
             "x": -1,
             "y": -1,
             "z": 1,
-            "nbt": {"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"shieldingRadResistance":"0.0d","radiationResistance":"0.0d"}},"id":"environmentaltech:structure_frame_6.tile"},
             "elements": [
                 "environmentaltech:structure_frame_6@0"
             ]
@@ -313,7 +304,6 @@
             "x": 1,
             "y": -1,
             "z": 1,
-            "nbt": {"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"shieldingRadResistance":"0.0d","radiationResistance":"0.0d"}},"id":"environmentaltech:structure_frame_6.tile"},
             "elements": [
                 "environmentaltech:structure_frame_6@0"
             ]
@@ -378,7 +368,6 @@
             "x": -1,
             "y": 0,
             "z": 1,
-            "nbt": {"casingColor":"8034751","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"shieldingRadResistance":"0.0d","radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
             "elements": [
                 "modularmachinery:blockcasing@5"
             ]
@@ -419,7 +408,6 @@
             "x": 1,
             "y": 0,
             "z": 1,
-            "nbt": {"casingColor":"8034751","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"shieldingRadResistance":"0.0d","radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
             "elements": [
                 "modularmachinery:blockcasing@5"
             ]
@@ -460,7 +448,6 @@
             "x": -1,
             "y": 1,
             "z": 1,
-            "nbt": {"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"shieldingRadResistance":"0.0d","radiationResistance":"0.0d"}},"id":"environmentaltech:structure_frame_6.tile"},
             "elements": [
                 "environmentaltech:structure_frame_6@0"
             ]
@@ -469,7 +456,6 @@
             "x": 0,
             "y": 1,
             "z": 1,
-            "nbt": {"casingColor":"8034751","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"shieldingRadResistance":"0.0d","radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
             "elements": [
                 "modularmachinery:blockcasing@5"
             ]
@@ -486,7 +472,6 @@
             "x": 1,
             "y": 1,
             "z": 1,
-            "nbt": {"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"shieldingRadResistance":"0.0d","radiationResistance":"0.0d"}},"id":"environmentaltech:structure_frame_6.tile"},
             "elements": [
                 "environmentaltech:structure_frame_6@0"
             ]
@@ -511,7 +496,6 @@
             "x": 0,
             "y": -1,
             "z": 2,
-            "nbt": {"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"shieldingRadResistance":"0.0d","radiationResistance":"0.0d"}},"id":"environmentaltech:structure_frame_6.tile"},
             "elements": [
                 "environmentaltech:structure_frame_6@0"
             ]

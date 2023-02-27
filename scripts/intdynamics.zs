@@ -44,11 +44,17 @@ recipes.addShaped(<integrateddynamics:logic_programmer:0>, [
 ]);
 
 // Logic director
-recipes.replaceAllOccurences(<ore:gemDiamond>, <ore:circuitUltimate>, <integrateddynamics:logic_director> * 4);
+recipes.remove(<integrateddynamics:logic_director> * 4);
+
+recipes.addShaped(<integrateddynamics:logic_director> * 4, [
+	[<integrateddynamics:crystalized_chorus_chunk>, <integratedterminals:chorus_glass>, <integrateddynamics:crystalized_chorus_chunk>], 
+	[<integrateddynamics:variable_transformer>, <ore:circuitUltimate>, <integrateddynamics:variable_transformer:1>], 
+	[<integrateddynamics:crystalized_chorus_chunk>, <integratedterminals:chorus_glass>, <integrateddynamics:crystalized_chorus_chunk>]
+]);
 
 // Terminals
-recipes.replaceAllOccurences(<ore:dustGlowstone>, <ore:ingotLumium>, <integratedterminals:part_terminal_storage_item>);
-recipes.replaceAllOccurences(<ore:dustGlowstone>, <ore:ingotLumium>, <integratedterminals:part_terminal_crafting_job_item>);
+recipes.replaceAllOccurences(<ore:dustGlowstone>, <ore:plateLumium>, <integratedterminals:part_terminal_storage_item>);
+recipes.replaceAllOccurences(<ore:dustGlowstone>, <ore:plateLumium>, <integratedterminals:part_terminal_crafting_job_item>);
 
 // Crafting interface
 recipes.replaceAllOccurences(<ore:ingotIron>, <ore:plateElectricalSteel>, <integratedcrafting:part_interface_crafting_item>);
@@ -59,3 +65,18 @@ recipes.replaceAllOccurences(<minecraft:crafting_table>, <rftools:crafter3>, <in
 
 // Energy battery
 recipes.replaceAllOccurences(<ore:blockRedstone>, <actuallyadditions:block_crystal:0>, <integrateddynamics:energy_battery>);
+
+// Logic cable
+recipes.remove(<integrateddynamics:cable> * 3);
+
+recipes.addShaped(<integrateddynamics:cable> * 4, [
+	[<integrateddynamics:crystalized_menril_chunk>, <integrateddynamics:crystalized_menril_chunk>, <integrateddynamics:crystalized_menril_chunk>], 
+	[<appliedenergistics2:part:16>, <ore:gearRestonia>, <appliedenergistics2:part:16>], 
+	[<integrateddynamics:crystalized_menril_chunk>, <integrateddynamics:crystalized_menril_chunk>, <integrateddynamics:crystalized_menril_chunk>]
+]);
+
+recipes.addShaped(<integrateddynamics:cable> * 12, [
+	[<integrateddynamics:crystalized_menril_chunk>, <integrateddynamics:crystalized_menril_chunk>, <integrateddynamics:crystalized_menril_chunk>], 
+	[<appliedenergistics2:part:16>, <ore:gearRestoniaEmpowered>, <appliedenergistics2:part:16>], 
+	[<integrateddynamics:crystalized_menril_chunk>, <integrateddynamics:crystalized_menril_chunk>, <integrateddynamics:crystalized_menril_chunk>]
+]);

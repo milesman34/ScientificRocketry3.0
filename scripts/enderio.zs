@@ -219,15 +219,15 @@ mods.nuclearcraft.Infuser.addRecipe(<simplyjetpacks:metaitemmods:14>, <liquid:va
 
 // Creative capacitor bank
 mods.extendedcrafting.TableCrafting.addShaped(<enderio:block_cap_bank:0>, [
-	[<mekanismgenerators:reactor>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <mekanismgenerators:reactor>], 
-	[<ore:plateCosmicNeutronium>, <enderio:block_cap_bank:3>, <extendedcrafting:material:13>, <nuclearcraft:rtg_californium>, <nuclearcraft:lithium_ion_battery_elite>, <nuclearcraft:rtg_californium>, <extendedcrafting:material:13>, <enderio:block_cap_bank:3>, <ore:plateCosmicNeutronium>], 
-	[<ore:plateCosmicNeutronium>, <extendedcrafting:material:13>, <fluxnetworks:gargantuanfluxstorage>, <extendedcrafting:singularity_custom:149>, <solarflux:solar_panel_neutronium>, <extendedcrafting:singularity_custom:149>, <fluxnetworks:gargantuanfluxstorage>, <extendedcrafting:material:13>, <ore:plateCosmicNeutronium>], 
-	[<ore:plateCosmicNeutronium>, <mekanism:basicblock2:4>.withTag({tier: 3}), <extendedcrafting:singularity_custom:149>, <avaritia:endest_pearl>, <extendedcrafting:singularity_custom:134>, <avaritia:endest_pearl>, <extendedcrafting:singularity_custom:149>, <mekanism:basicblock2:4>.withTag({tier: 3}), <ore:plateCosmicNeutronium>], 
-	[<ore:plateCosmicNeutronium>, <nuclearcraft:voltaic_pile_elite>, <mekanism:basicblock2:3>.withTag({tier: 3}), <extendedcrafting:singularity:29>, <ore:ingotInfinity>, <extendedcrafting:singularity:29>, <mekanism:basicblock2:3>.withTag({tier: 3}), <nuclearcraft:voltaic_pile_elite>, <ore:plateCosmicNeutronium>], 
-	[<ore:plateCosmicNeutronium>, <mekanism:basicblock2:4>.withTag({tier: 3}), <extendedcrafting:singularity_custom:149>, <avaritia:endest_pearl>, <extendedcrafting:singularity_custom:134>, <avaritia:endest_pearl>, <extendedcrafting:singularity_custom:149>, <mekanism:basicblock2:4>.withTag({tier: 3}), <ore:plateCosmicNeutronium>], 
-	[<ore:plateCosmicNeutronium>, <extendedcrafting:material:13>, <fluxnetworks:gargantuanfluxstorage>, <extendedcrafting:singularity_custom:149>, <solarflux:solar_panel_neutronium>, <extendedcrafting:singularity_custom:149>, <fluxnetworks:gargantuanfluxstorage>, <extendedcrafting:material:13>, <ore:plateCosmicNeutronium>], 
-	[<ore:plateCosmicNeutronium>, <enderio:block_cap_bank:3>, <extendedcrafting:material:13>, <nuclearcraft:rtg_californium>, <nuclearcraft:lithium_ion_battery_elite>, <nuclearcraft:rtg_californium>, <extendedcrafting:material:13>, <enderio:block_cap_bank:3>, <ore:plateCosmicNeutronium>], 
-	[<mekanismgenerators:reactor>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <ore:plateCosmicNeutronium>, <mekanismgenerators:reactor>]
+	[<mekanismgenerators:reactor>, <contenttweaker:cosmic_machine_casing>, <contenttweaker:cosmic_machine_casing>, <contenttweaker:cosmic_machine_casing>, <contenttweaker:cosmic_machine_casing>, <contenttweaker:cosmic_machine_casing>, <contenttweaker:cosmic_machine_casing>, <contenttweaker:cosmic_machine_casing>, <mekanismgenerators:reactor>], 
+	[<contenttweaker:cosmic_machine_casing>, <enderio:block_cap_bank:3>, <enderio:item_capacitor_stellar>, <nuclearcraft:rtg_californium>, <nuclearcraft:lithium_ion_battery_elite>, <nuclearcraft:rtg_californium>, <enderio:item_capacitor_stellar>, <enderio:block_cap_bank:3>, <contenttweaker:cosmic_machine_casing>], 
+	[<contenttweaker:cosmic_machine_casing>, <environmentaltech:solar_cont_6>, <fluxnetworks:gargantuanfluxstorage>, <mekanismgenerators:reactorglass:1>, <solarflux:solar_panel_neutronium>, <mekanismgenerators:reactorglass:1>, <fluxnetworks:gargantuanfluxstorage>, <environmentaltech:solar_cont_6>, <contenttweaker:cosmic_machine_casing>], 
+	[<contenttweaker:cosmic_machine_casing>, <mekanism:basicblock2:4>.withTag({tier: 3}), <extendedcrafting:material:13>, <avaritia:endest_pearl>, <extendedcrafting:singularity_custom:134>, <avaritia:endest_pearl>, <extendedcrafting:material:13>, <mekanism:basicblock2:4>.withTag({tier: 3}), <contenttweaker:cosmic_machine_casing>], 
+	[<contenttweaker:cosmic_machine_casing>, <nuclearcraft:voltaic_pile_elite>, <mekanism:basicblock2:3>.withTag({tier: 3}), <extendedcrafting:singularity:29>, <ore:ingotInfinity>, <extendedcrafting:singularity:29>, <mekanism:basicblock2:3>.withTag({tier: 3}), <nuclearcraft:voltaic_pile_elite>, <contenttweaker:cosmic_machine_casing>], 
+	[<contenttweaker:cosmic_machine_casing>, <mekanism:basicblock2:4>.withTag({tier: 3}), <extendedcrafting:material:13>, <avaritia:endest_pearl>, <extendedcrafting:singularity_custom:134>, <avaritia:endest_pearl>, <extendedcrafting:material:13>, <mekanism:basicblock2:4>.withTag({tier: 3}), <contenttweaker:cosmic_machine_casing>], 
+	[<contenttweaker:cosmic_machine_casing>, <environmentaltech:solar_cont_6>, <fluxnetworks:gargantuanfluxstorage>, <mekanismgenerators:reactorglass:1>, <solarflux:solar_panel_neutronium>, <mekanismgenerators:reactorglass:1>, <fluxnetworks:gargantuanfluxstorage>, <environmentaltech:solar_cont_6>, <contenttweaker:cosmic_machine_casing>], 
+	[<contenttweaker:cosmic_machine_casing>, <enderio:block_cap_bank:3>, <enderio:item_capacitor_stellar>, <nuclearcraft:rtg_californium>, <nuclearcraft:lithium_ion_battery_elite>, <nuclearcraft:rtg_californium>, <enderio:item_capacitor_stellar>, <enderio:block_cap_bank:3>, <contenttweaker:cosmic_machine_casing>], 
+	[<mekanismgenerators:reactor>, <contenttweaker:cosmic_machine_casing>, <contenttweaker:cosmic_machine_casing>, <contenttweaker:cosmic_machine_casing>, <contenttweaker:cosmic_machine_casing>, <contenttweaker:cosmic_machine_casing>, <contenttweaker:cosmic_machine_casing>, <contenttweaker:cosmic_machine_casing>, <mekanismgenerators:reactor>]
 ]);
 
 // Prescient crystal
@@ -296,9 +296,9 @@ recipes.addShaped(<enderio:item_material:54>, [
 recipes.remove(<enderio:item_material:65>);
 
 recipes.addShaped(<enderio:item_material:65>, [
-	[<enderio:item_capacitor_crystalline>, <ore:ingotGelidEnderium>, null], 
-	[null, <ore:gearDiamatineEmpowered>, <ore:ingotGelidEnderium>], 
-	[<enderio:item_capacitor_crystalline>, <ore:ingotGelidEnderium>, null]
+	[<enderio:item_capacitor_crystalline>, <ore:plateGelidEnderium>, null], 
+	[null, <ore:gearDiamatineEmpowered>, <ore:plateGelidEnderium>], 
+	[<enderio:item_capacitor_crystalline>, <ore:plateGelidEnderium>, null]
 ]);
 
 // Infinity dust
@@ -326,9 +326,9 @@ recipes.addShaped(<enderio:block_enchanter>, [
 recipes.remove(<enderio:block_travel_anchor>);
 
 recipes.addShaped(<enderio:block_travel_anchor>, [
-	[<ore:ingotPulsatingIron>, <ore:itemConduitBinder>, <ore:ingotPulsatingIron>],
+	[<ore:platePulsatingIron>, <ore:itemConduitBinder>, <ore:platePulsatingIron>],
 	[<ore:itemConduitBinder>, <ore:itemPulsatingCrystal>, <ore:itemConduitBinder>],
-	[<ore:ingotPulsatingIron>, <ore:itemConduitBinder>, <ore:ingotPulsatingIron>]
+	[<ore:platePulsatingIron>, <ore:itemConduitBinder>, <ore:platePulsatingIron>]
 ]);
 
 // Telepad
@@ -336,8 +336,8 @@ recipes.remove(<enderio:block_tele_pad>);
 
 recipes.addShaped(0, <enderio:block_tele_pad>, [
 	[<appliedenergistics2:quartz_vibrant_glass>, <appliedenergistics2:quartz_vibrant_glass>, <appliedenergistics2:quartz_vibrant_glass>], 
-	[<ore:ingotEndSteel>, <mekanism:teleportationcore>, <ore:ingotEndSteel>], 
-	[<ore:ingotEndSteel>, <enderio:block_travel_anchor>, <ore:ingotEndSteel>]
+	[<ore:plateEndSteel>, <mekanism:teleportationcore>, <ore:plateEndSteel>], 
+	[<ore:plateEndSteel>, <enderio:block_travel_anchor>, <ore:plateEndSteel>]
 ]);
 
 // Experience rod
@@ -356,9 +356,9 @@ recipes.replaceAllOccurences(<ore:gearEnergized>, <cyclicmagic:magnet_anti_block
 recipes.remove(<enderio:block_wireless_charger>);
 
 recipes.addShaped(<enderio:block_wireless_charger>, [
-	[<ore:ingotVividAlloy>, <ore:ingotVividAlloy>, <ore:ingotVividAlloy>], 
-	[<ore:ingotVividAlloy>, <ore:skullEnderResonator>, <ore:ingotVividAlloy>], 
-	[<ore:ingotVividAlloy>, <enderio:item_capacitor_vivid>, <ore:ingotVividAlloy>]
+	[<ore:plateVividAlloy>, <ore:plateVividAlloy>, <ore:plateVividAlloy>], 
+	[<ore:plateVividAlloy>, <ore:skullEnderResonator>, <ore:plateVividAlloy>], 
+	[<ore:plateVividAlloy>, <enderio:item_capacitor_vivid>, <ore:plateVividAlloy>]
 ]);
 // Animal token
 recipes.addShapeless(<enderio:item_material:78>, [
@@ -453,7 +453,7 @@ recipes.remove(<enderio:item_stellar_alloy_boots>);
 recipes.remove(<enderio:item_stellar_alloy_chestplate>);
 recipes.remove(<enderio:item_stellar_alloy_leggings>);
 
-mods.extendedcrafting.CombinationCrafting.addRecipe(<enderio:item_stellar_alloy_sword>, 500000000, 1000000, <enderio:item_end_steel_sword>, [
+mods.extendedcrafting.CombinationCrafting.addRecipe(<enderio:item_stellar_alloy_sword>, 500000000, 10000000, <enderio:item_end_steel_sword>, [
     <enderio:item_alloy_endergy_ingot:3>,
 	<enderio:item_alloy_endergy_ingot:3>,
 	<enderio:item_alloy_endergy_ingot:3>,
@@ -465,10 +465,14 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<enderio:item_stellar_alloy_
 	<enderio:item_material:44>,
 	<redstonerepository:tool.sword_gelid>,
 	<deepmoblearning:glitch_infused_sword>,
-	<cyclicmagic:crystal_sword>
+	<cyclicmagic:crystal_sword>,
+	<enderutilities:endersword>,
+	<cyclicmagic:sword_weakness>,
+	<cyclicmagic:sword_slowness>,
+	<cyclicmagic:sword_ender>,
 ]);
 
-mods.extendedcrafting.CombinationCrafting.addRecipe(<enderio:item_stellar_alloy_pickaxe>, 500000000, 1000000, <enderio:item_end_steel_pickaxe>, [
+mods.extendedcrafting.CombinationCrafting.addRecipe(<enderio:item_stellar_alloy_pickaxe>, 500000000, 10000000, <enderio:item_end_steel_pickaxe>, [
     <enderio:item_alloy_endergy_ingot:3>,
 	<enderio:item_alloy_endergy_ingot:3>,
 	<enderio:item_alloy_endergy_ingot:3>,
@@ -480,10 +484,12 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<enderio:item_stellar_alloy_
 	<enderio:item_material:44>,
 	<redstonerepository:tool.pickaxe_gelid>,
 	<advancedrocketry:jackhammer>,
-	<cyclicmagic:crystal_pickaxe>
+	<cyclicmagic:crystal_pickaxe>,
+	<enderutilities:endertool:0>,
+	<enderutilities:enderpart:30>
 ]);
 
-mods.extendedcrafting.CombinationCrafting.addRecipe(<enderio:item_stellar_alloy_axe>, 500000000, 1000000, <enderio:item_end_steel_axe>, [
+mods.extendedcrafting.CombinationCrafting.addRecipe(<enderio:item_stellar_alloy_axe>, 500000000, 10000000, <enderio:item_end_steel_axe>, [
     <enderio:item_alloy_endergy_ingot:3>,
 	<enderio:item_alloy_endergy_ingot:3>,
 	<enderio:item_alloy_endergy_ingot:3>,
@@ -495,10 +501,11 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<enderio:item_stellar_alloy_
 	<enderio:item_material:44>,
 	<redstonerepository:tool.axe_gelid>,
 	<actuallyadditions:item_axe_crystal_green>,
-	<cyclicmagic:crystal_axe>
+	<cyclicmagic:crystal_axe>,
+	<enderutilities:endertool:1>
 ]);
 
-mods.extendedcrafting.CombinationCrafting.addRecipe(<enderio:item_stellar_alloy_helmet>, 500000000, 1000000, <enderio:item_end_steel_helmet>, [
+mods.extendedcrafting.CombinationCrafting.addRecipe(<enderio:item_stellar_alloy_helmet>, 500000000, 10000000, <enderio:item_end_steel_helmet>, [
     <contenttweaker:stellar_armor_plating>,
 	<contenttweaker:stellar_armor_plating>,
 	<contenttweaker:stellar_armor_plating>,
@@ -510,10 +517,12 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<enderio:item_stellar_alloy_
 	<enderio:item_material:44>,
 	<redstonerepository:armor.helmet_gelid>,
 	<deepmoblearning:glitch_infused_helmet>,
-	<cyclicmagic:purple_helmet>
+	<cyclicmagic:purple_helmet>,
+	<cyclicmagic:glowing_helmet>,
+	<nuclearcraft:helm_hazmat>
 ]);
 
-mods.extendedcrafting.CombinationCrafting.addRecipe(<enderio:item_stellar_alloy_chestplate>, 500000000, 1000000, <enderio:item_end_steel_chestplate>, [
+mods.extendedcrafting.CombinationCrafting.addRecipe(<enderio:item_stellar_alloy_chestplate>, 500000000, 10000000, <enderio:item_end_steel_chestplate>, [
     <contenttweaker:stellar_armor_plating>,
 	<contenttweaker:stellar_armor_plating>,
 	<contenttweaker:stellar_armor_plating>,
@@ -525,10 +534,11 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<enderio:item_stellar_alloy_
 	<enderio:item_material:44>,
 	<redstonerepository:armor.chestplategelid>,
 	<deepmoblearning:glitch_infused_chestplate>,
-	<cyclicmagic:purple_chestplate>
+	<cyclicmagic:purple_chestplate>,
+	<nuclearcraft:chest_hazmat>
 ]);
 
-mods.extendedcrafting.CombinationCrafting.addRecipe(<enderio:item_stellar_alloy_leggings>, 500000000, 1000000, <enderio:item_end_steel_leggings>, [
+mods.extendedcrafting.CombinationCrafting.addRecipe(<enderio:item_stellar_alloy_leggings>, 500000000, 10000000, <enderio:item_end_steel_leggings>, [
     <contenttweaker:stellar_armor_plating>,
 	<contenttweaker:stellar_armor_plating>,
 	<contenttweaker:stellar_armor_plating>,
@@ -540,10 +550,11 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<enderio:item_stellar_alloy_
 	<enderio:item_material:44>,
 	<redstonerepository:armor.leggings_gelid>,
 	<deepmoblearning:glitch_infused_leggings>,
-	<cyclicmagic:purple_leggings>
+	<cyclicmagic:purple_leggings>,
+	<nuclearcraft:legs_hazmat>
 ]);
 
-mods.extendedcrafting.CombinationCrafting.addRecipe(<enderio:item_stellar_alloy_boots>, 500000000, 1000000, <enderio:item_end_steel_boots>, [
+mods.extendedcrafting.CombinationCrafting.addRecipe(<enderio:item_stellar_alloy_boots>, 500000000, 10000000, <enderio:item_end_steel_boots>, [
     <contenttweaker:stellar_armor_plating>,
 	<contenttweaker:stellar_armor_plating>,
 	<contenttweaker:stellar_armor_plating>,
@@ -555,7 +566,10 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<enderio:item_stellar_alloy_
 	<enderio:item_material:44>,
 	<redstonerepository:armor.boots_gelid>,
 	<deepmoblearning:glitch_infused_boots>,
-	<cyclicmagic:purple_boots>
+	<cyclicmagic:purple_boots>,
+	<opencomputers:hoverboots>,
+	<advancedrocketry:itemupgrade:3>,
+	<nuclearcraft:boots_hazmat>
 ]);
 
 // Stellar armor plating
@@ -573,26 +587,6 @@ recipes.addShaped(<contenttweaker:stellar_armor_plating>, [
 <enderio:item_endergy_conduit:7>.displayName = "Osgloglas Energy Conduit";
 
 
-// Enhanced/ender tiers
-recipes.remove(<enderio:item_power_conduit:1> * 8);
-recipes.remove(<enderio:item_power_conduit:2> * 8);
-
-mods.thermalexpansion.InductionSmelter.addRecipe(<enderio:item_power_conduit:1> * 8, <enderio:item_power_conduit:0> * 8, <enderio:item_alloy_ingot:1> * 3, 8000);
-mods.thermalexpansion.InductionSmelter.addRecipe(<enderio:item_power_conduit:2> * 8, <enderio:item_power_conduit:1> * 8, <enderio:item_alloy_ingot:2> * 3, 8000);
-mods.thermalexpansion.InductionSmelter.addRecipe(<enderio:item_endergy_conduit:7> * 8, <enderio:item_power_conduit:2> * 8, <contenttweaker:osgloglas_ingot> * 3, 8000);
-mods.thermalexpansion.InductionSmelter.addRecipe(<enderio:item_endergy_conduit:8> * 8, <enderio:item_endergy_conduit:7> * 8, <thermalfoundation:material:136> * 3, 8000);
-mods.thermalexpansion.InductionSmelter.addRecipe(<enderio:item_endergy_conduit:9> * 8, <enderio:item_endergy_conduit:8> * 8, <enderio:item_alloy_endergy_ingot:3> * 3, 8000);
-mods.thermalexpansion.InductionSmelter.addRecipe(<enderio:item_endergy_conduit:10> * 8, <enderio:item_endergy_conduit:9> * 8, <contenttweaker:adamantium_ingot> * 3, 8000);
-mods.thermalexpansion.InductionSmelter.addRecipe(<enderio:item_endergy_conduit:11> * 8, <enderio:item_endergy_conduit:10> * 8, <extendedcrafting:material:32> * 3, 8000);
-
-mods.nuclearcraft.AlloyFurnace.addRecipe(<enderio:item_power_conduit:0> * 8, <enderio:item_alloy_ingot:1> * 3, <enderio:item_power_conduit:1> * 8);
-mods.nuclearcraft.AlloyFurnace.addRecipe(<enderio:item_power_conduit:1> * 8, <enderio:item_alloy_ingot:2> * 3, <enderio:item_power_conduit:2> * 8);
-mods.nuclearcraft.AlloyFurnace.addRecipe(<enderio:item_power_conduit:2> * 8, <contenttweaker:osgloglas_ingot> * 3, <enderio:item_endergy_conduit:7> * 8);
-mods.nuclearcraft.AlloyFurnace.addRecipe(<enderio:item_endergy_conduit:7> * 8, <thermalfoundation:material:136> * 3, <enderio:item_endergy_conduit:8> * 8);
-mods.nuclearcraft.AlloyFurnace.addRecipe(<enderio:item_endergy_conduit:8> * 8, <enderio:item_alloy_endergy_ingot:3> * 3, <enderio:item_endergy_conduit:9> * 8);
-mods.nuclearcraft.AlloyFurnace.addRecipe(<enderio:item_endergy_conduit:9> * 8, <contenttweaker:adamantium_ingot> * 3, <enderio:item_endergy_conduit:10> * 8);
-mods.nuclearcraft.AlloyFurnace.addRecipe(<enderio:item_endergy_conduit:10> * 8, <extendedcrafting:material:32> * 3, <enderio:item_endergy_conduit:11> * 8);
-
 // Removes other endergy conduits
 recipes.remove(<enderio:item_endergy_conduit:11> * 8);
 recipes.remove(<enderio:item_endergy_conduit:10> * 8);
@@ -606,6 +600,52 @@ recipes.remove(<enderio:item_endergy_conduit:3> * 8);
 recipes.remove(<enderio:item_endergy_conduit:2> * 8);
 recipes.remove(<enderio:item_endergy_conduit:1> * 8);
 recipes.remove(<enderio:item_endergy_conduit:0> * 8);
+
+// Enhanced/ender tiers
+recipes.remove(<enderio:item_power_conduit:1> * 8);
+recipes.remove(<enderio:item_power_conduit:2> * 8);
+
+recipes.addShaped(<enderio:item_power_conduit:1> * 8, [
+	[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>], 
+	[<ore:ingotEnergeticAlloy>, <ore:ingotEnergeticAlloy>, <ore:ingotEnergeticAlloy>], 
+	[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]
+]);
+
+recipes.addShaped(<enderio:item_power_conduit:2> * 8, [
+	[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>], 
+	[<ore:ingotVibrantAlloy>, <ore:ingotVibrantAlloy>, <ore:ingotVibrantAlloy>], 
+	[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]
+]);
+
+recipes.addShaped(<enderio:item_endergy_conduit:7> * 8, [
+	[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>], 
+	[<ore:ingotOsgloglas>, <ore:ingotOsgloglas>, <ore:ingotOsgloglas>], 
+	[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]
+]);
+
+recipes.addShaped(<enderio:item_endergy_conduit:8> * 8, [
+	[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>], 
+	[<ore:ingotMithril>, <ore:ingotMithril>, <ore:ingotMithril>], 
+	[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]
+]);
+
+recipes.addShaped(<enderio:item_endergy_conduit:9> * 8, [
+	[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>], 
+	[<ore:ingotStellarAlloy>, <ore:ingotStellarAlloy>, <ore:ingotStellarAlloy>], 
+	[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]
+]);
+
+recipes.addShaped(<enderio:item_endergy_conduit:10> * 8, [
+	[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>], 
+	[<ore:ingotAdamantium>, <ore:ingotAdamantium>, <ore:ingotAdamantium>], 
+	[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]
+]);
+
+recipes.addShaped(<enderio:item_endergy_conduit:11> * 8, [
+	[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>], 
+	[<ore:ingotUltimate>, <ore:ingotUltimate>, <ore:ingotUltimate>], 
+	[<ore:itemConduitBinder>, <ore:itemConduitBinder>, <ore:itemConduitBinder>]
+]);
 
 
 recipes.remove(<enderio:item_material:10>);

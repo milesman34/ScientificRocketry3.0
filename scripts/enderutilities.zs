@@ -13,9 +13,9 @@ mods.nuclearcraft.AlloyFurnace.addRecipe(<enderutilities:enderpart:0>, <enderio:
 recipes.remove(<enderutilities:asu>);
 
 recipes.addShaped(<enderutilities:asu>, [
-	[<enderutilities:enderpart:0>, <ore:ingotVividAlloy>, <enderutilities:enderpart:0>], 
+	[<enderutilities:enderpart:0>, <ore:plateVividAlloy>, <enderutilities:enderpart:0>], 
 	[<ore:circuitElite>, <appliedenergistics2:material:38>, <ore:circuitElite>], 
-	[<enderutilities:enderpart:0>, <ore:ingotVividAlloy>, <enderutilities:enderpart:0>]
+	[<enderutilities:enderpart:0>, <ore:plateVividAlloy>, <enderutilities:enderpart:0>]
 ]);
 
 // Drawbridge
@@ -31,9 +31,9 @@ recipes.addShaped(<enderutilities:draw_bridge:0>, [
 recipes.remove(<enderutilities:draw_bridge:1>);
 
 recipes.addShaped(<enderutilities:draw_bridge:1>, [
-	[<enderutilities:enderpart:1>, <actuallyadditions:item_crystal_empowered:1>, <enderutilities:enderpart:1>], 
-	[<actuallyadditions:item_crystal_empowered:1>, <enderutilities:draw_bridge:0>, <actuallyadditions:item_crystal_empowered:1>], 
-	[<enderutilities:enderpart:1>, <actuallyadditions:item_crystal_empowered:1>, <enderutilities:enderpart:1>]
+	[<enderutilities:enderpart:1>, <ore:platePalisEmpowered>, <enderutilities:enderpart:1>], 
+	[<ore:platePalisEmpowered>, <enderutilities:draw_bridge:0>, <ore:platePalisEmpowered>], 
+	[<enderutilities:enderpart:1>, <ore:platePalisEmpowered>, <enderutilities:enderpart:1>]
 ]);
 
 // Ender elevator
@@ -50,15 +50,15 @@ recipes.remove(<enderutilities:inserter:0>);
 recipes.remove(<enderutilities:inserter:1>);
 
 recipes.addShaped(<enderutilities:inserter:0>, [
-	[<enderutilities:enderpart:0>, <ore:ingotVibrantAlloy>, <enderutilities:enderpart:0>], 
+	[<enderutilities:enderpart:0>, <ore:plateVibrantAlloy>, <enderutilities:enderpart:0>], 
 	[<ore:blockGlassHardened>, <ore:gearEnderium>, <ore:blockGlassHardened>], 
-	[<enderutilities:enderpart:0>, <ore:ingotVibrantAlloy>, <enderutilities:enderpart:0>]
+	[<enderutilities:enderpart:0>, <ore:plateVibrantAlloy>, <enderutilities:enderpart:0>]
 ]);
 
 recipes.addShaped(<enderutilities:inserter:1>, [
-	[<enderutilities:enderpart:0>, <ore:ingotEnrichedSignalum>, <enderutilities:enderpart:0>], 
+	[<enderutilities:enderpart:0>, <ore:plateEnrichedSignalum>, <enderutilities:enderpart:0>], 
 	[<ore:blockGlassHardened>, <ore:gearEnderium>, <ore:blockGlassHardened>], 
-	[<enderutilities:enderpart:0>, <ore:ingotEnrichedSignalum>, <enderutilities:enderpart:0>]
+	[<enderutilities:enderpart:0>, <ore:plateEnrichedSignalum>, <enderutilities:enderpart:0>]
 ]);
 
 // Ender cores
@@ -67,21 +67,21 @@ recipes.remove(<enderutilities:enderpart:11>);
 recipes.remove(<enderutilities:enderpart:12>);
 
 recipes.addShaped(<enderutilities:enderpart:10>, [
-	[<enderutilities:enderpart:0>, <actuallyadditions:item_crystal_empowered:1>, <enderutilities:enderpart:0>], 
-	[<ore:ingotRefinedObsidian>, <darkutils:material:1>, <ore:ingotRefinedObsidian>], 
-	[<enderutilities:enderpart:0>, <actuallyadditions:item_crystal_empowered:1>, <enderutilities:enderpart:0>]
+	[<enderutilities:enderpart>, <ore:plateRefinedObsidian>, <enderutilities:enderpart>], 
+	[<actuallyadditions:item_crystal_empowered:1>, <darkutils:material:1>, <actuallyadditions:item_crystal_empowered:1>], 
+	[<enderutilities:enderpart>, <ore:plateRefinedObsidian>, <enderutilities:enderpart>]
 ]);
 
 recipes.addShaped(<enderutilities:enderpart:11>, [
-	[<enderutilities:enderpart:1>, <ore:ingotGelidEnderium>, <enderutilities:enderpart:1>], 
+	[<enderutilities:enderpart:1>, <ore:plateGelidEnderium>, <enderutilities:enderpart:1>], 
 	[<actuallyadditions:item_crystal_empowered:4>, <enderutilities:enderpart:10>, <actuallyadditions:item_crystal_empowered:4>], 
-	[<enderutilities:enderpart:1>, <ore:ingotGelidEnderium>, <enderutilities:enderpart:1>]
+	[<enderutilities:enderpart:1>, <ore:plateGelidEnderium>, <enderutilities:enderpart:1>]
 ]);
 
 recipes.addShaped(<enderutilities:enderpart:12>, [
-	[<enderutilities:enderpart:2>, <ore:ingotMithril>, <enderutilities:enderpart:2>], 
-	[<ore:ingotGlitchInfused>, <enderutilities:enderpart:11>, <ore:ingotGlitchInfused>], 
-	[<enderutilities:enderpart:2>, <ore:ingotMithril>, <enderutilities:enderpart:2>]
+	[<enderutilities:enderpart:2>, <ore:plateMithril>, <enderutilities:enderpart:2>], 
+	[<ore:plateGlitchInfused>, <enderutilities:enderpart:11>, <ore:plateGlitchInfused>], 
+	[<enderutilities:enderpart:2>, <ore:plateMithril>, <enderutilities:enderpart:2>]
 ]);
 
 // Energy bridge
@@ -112,7 +112,7 @@ recipes.remove(<enderutilities:machine_1:0>);
 
 recipes.addShaped(<enderutilities:machine_1:0>, [
 	[<enderutilities:enderpart:0>, <actuallyadditions:item_misc:8>, <enderutilities:enderpart:0>], 
-	[<ore:ingotVibrantAlloy>, <ore:blockVibrantAlloy>, <ore:ingotVibrantAlloy>], 
+	[<ore:plateVibrantAlloy>, <ore:blockVibrantAlloy>, <ore:plateVibrantAlloy>], 
 	[<enderutilities:enderpart:0>, <actuallyadditions:item_misc:8>, <enderutilities:enderpart:0>]
 ]);
 
@@ -120,8 +120,8 @@ recipes.addShaped(<enderutilities:machine_1:0>, [
 recipes.remove(<enderutilities:machine_1:1>);
 
 recipes.addShaped(<enderutilities:machine_1:1>, [
-	[<enderutilities:enderpart:0>, <ore:ingotDarkSteel>, <enderutilities:enderpart:0>], 
-	[<ore:ingotDarkSteel>, <avaritia:compressed_crafting_table>, <ore:ingotDarkSteel>], 
+	[<enderutilities:enderpart:0>, <ore:plateDarkSteel>, <enderutilities:enderpart:0>], 
+	[<ore:plateDarkSteel>, <avaritia:compressed_crafting_table>, <ore:plateDarkSteel>], 
 	[<enderutilities:enderpart:0>, <ironchest:iron_chest>, <enderutilities:enderpart:0>]
 ]);
 
@@ -129,9 +129,9 @@ recipes.addShaped(<enderutilities:machine_1:1>, [
 recipes.remove(<enderutilities:molecular_exciter>);
 
 recipes.addShaped(<enderutilities:molecular_exciter>, [
-	[<enderutilities:enderpart:1>, <ore:ingotVividAlloy>, <enderutilities:enderpart:1>], 
+	[<enderutilities:enderpart:1>, <ore:plateVividAlloy>, <enderutilities:enderpart:1>], 
 	[<thermalfoundation:glass_alloy:7>, <thermalfoundation:glass_alloy:7>, <enderutilities:enderpart:11>], 
-	[<enderutilities:enderpart:1>, <ore:ingotVividAlloy>, <enderutilities:enderpart:1>]
+	[<enderutilities:enderpart:1>, <ore:plateVividAlloy>, <enderutilities:enderpart:1>]
 ]);
 
 // Portal

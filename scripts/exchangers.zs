@@ -47,9 +47,9 @@ recipes.addShaped(<exchangers:exchanger_core_tier2>, [
 recipes.remove(<exchangers:exchanger_core_tier3>);
 
 recipes.addShaped(<exchangers:exchanger_core_tier3>, [
-    [<ore:ingotCrystallineAlloy>, <actuallyadditions:block_crystal_empowered:4>, <ore:ingotCrystallineAlloy>], 
+    [<ore:plateCrystallineAlloy>, <actuallyadditions:block_crystal_empowered:4>, <ore:plateCrystallineAlloy>], 
 	[<actuallyadditions:block_crystal_empowered:2>, <exchangers:exchanger_core_tier2>, <actuallyadditions:block_crystal_empowered:2>], 
-	[<ore:ingotCrystallineAlloy>, <actuallyadditions:block_crystal_empowered:4>, <ore:ingotCrystallineAlloy>]
+	[<ore:plateCrystallineAlloy>, <actuallyadditions:block_crystal_empowered:4>, <ore:plateCrystallineAlloy>]
 ]);
 
 // Ender io exchanger core tier 1

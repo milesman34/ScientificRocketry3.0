@@ -79,7 +79,7 @@
         {
             "x": 0,
             "y": 0,
-            "z": 2,"nbt": {"casingColor":"8034751","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"shieldingRadResistance":"0.0d","radiationResistance":"0.0d"}},"id":"minecraft:tileenergyinputhatch"},
+            "z": 2,
             "elements": [
                 "metalfabcasing"
             ]
@@ -128,7 +128,6 @@
             "x": 0,
             "y": 3,
             "z": 1,
-            "nbt": {"casingColor":"8034751","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"shieldingRadResistance":"0.0d","radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
             "elements": [
                 "modularmachinery:blockcasing@1"
             ]
@@ -273,7 +272,6 @@
             "x": 0,
             "y": -1,
             "z": 1,
-            "nbt": {"casingColor":"8034751","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"shieldingRadResistance":"0.0d","radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
             "elements": [
                 "modularmachinery:blockcasing@2"
             ]

@@ -147,13 +147,13 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<mekanism:basicblock2:4>.wit
 // Creative energy cube
 mods.extendedcrafting.TableCrafting.addShaped(0, <mekanism:energycube:0>.withTag({tier: 4, mekData:{energyStored:1.7976931348623157E308d}}), [
 	[<ore:blockInfinity>, <ore:plateInfinity>, <ore:plateInfinity>, <ore:plateInfinity>, <ore:plateInfinity>, <ore:plateInfinity>, <ore:plateInfinity>, <ore:plateInfinity>, <ore:blockInfinity>], 
-	[<ore:plateInfinity>, <minecraft:bedrock>, <extendedcrafting:singularity_custom:114>, <extendedcrafting:singularity_custom:157>, <appliedenergistics2:creative_energy_cell>, <extendedcrafting:singularity_custom:157>, <extendedcrafting:singularity_custom:114>, <minecraft:bedrock>, <ore:plateInfinity>], 
+	[<ore:plateInfinity>, <minecraft:bedrock>, <extendedcrafting:singularity_custom:114>, <extendedcrafting:singularity_custom:181>, <appliedenergistics2:creative_energy_cell>, <extendedcrafting:singularity_custom:181>, <extendedcrafting:singularity_custom:114>, <minecraft:bedrock>, <ore:plateInfinity>], 
 	[<ore:plateInfinity>, <extendedcrafting:singularity_custom:114>, <solarflux:solar_panel_infinity>, <enderio:block_cap_bank:0>, <enderio:block_cap_bank:0>, <enderio:block_cap_bank:0>, <solarflux:solar_panel_infinity>, <extendedcrafting:singularity_custom:114>, <ore:plateInfinity>], 
-	[<ore:plateInfinity>, <extendedcrafting:singularity_custom:157>, <enderio:block_cap_bank:0>, <avaritia:resource:5>, <ore:ingotEternity>, <avaritia:resource:5>, <enderio:block_cap_bank:0>, <extendedcrafting:singularity_custom:157>, <ore:plateInfinity>], 
+	[<ore:plateInfinity>, <extendedcrafting:singularity_custom:185>, <enderio:block_cap_bank:0>, <avaritia:resource:5>, <ore:ingotEternity>, <avaritia:resource:5>, <enderio:block_cap_bank:0>, <extendedcrafting:singularity_custom:185>, <ore:plateInfinity>], 
 	[<ore:plateInfinity>, <appliedenergistics2:creative_energy_cell>, <enderio:block_cap_bank:0>, <ore:ingotEternity>, <avaritia:resource:5>, <ore:ingotEternity>, <enderio:block_cap_bank:0>, <appliedenergistics2:creative_energy_cell>, <ore:plateInfinity>], 
-	[<ore:plateInfinity>, <extendedcrafting:singularity_custom:157>, <enderio:block_cap_bank:0>, <avaritia:resource:5>, <ore:ingotEternity>, <avaritia:resource:5>, <enderio:block_cap_bank:0>, <extendedcrafting:singularity_custom:157>, <ore:plateInfinity>], 
+	[<ore:plateInfinity>, <extendedcrafting:singularity_custom:185>, <enderio:block_cap_bank:0>, <avaritia:resource:5>, <ore:ingotEternity>, <avaritia:resource:5>, <enderio:block_cap_bank:0>, <extendedcrafting:singularity_custom:185>, <ore:plateInfinity>], 
 	[<ore:plateInfinity>, <extendedcrafting:singularity_custom:114>, <solarflux:solar_panel_infinity>, <enderio:block_cap_bank:0>, <enderio:block_cap_bank:0>, <enderio:block_cap_bank:0>, <solarflux:solar_panel_infinity>, <extendedcrafting:singularity_custom:114>, <ore:plateInfinity>], 
-	[<ore:plateInfinity>, <minecraft:bedrock>, <extendedcrafting:singularity_custom:114>, <extendedcrafting:singularity_custom:157>, <appliedenergistics2:creative_energy_cell>, <extendedcrafting:singularity_custom:157>, <extendedcrafting:singularity_custom:114>, <minecraft:bedrock>, <ore:plateInfinity>], 
+	[<ore:plateInfinity>, <minecraft:bedrock>, <extendedcrafting:singularity_custom:114>, <extendedcrafting:singularity_custom:181>, <appliedenergistics2:creative_energy_cell>, <extendedcrafting:singularity_custom:181>, <extendedcrafting:singularity_custom:114>, <minecraft:bedrock>, <ore:plateInfinity>], 
 	[<ore:blockInfinity>, <ore:plateInfinity>, <ore:plateInfinity>, <ore:plateInfinity>, <ore:plateInfinity>, <ore:plateInfinity>, <ore:plateInfinity>, <ore:plateInfinity>, <ore:blockInfinity>]
 ]);
 
@@ -468,7 +468,7 @@ recipes.addShaped(<mekanismgenerators:reactorglass:1>, [
 // Reactor logic adapter
 recipes.replaceAllOccurences(<ore:dustRedstone>, <ore:circuitElite>, <mekanismgenerators:reactor:3>);
 
-// Reactor controller (evil laugh)
+// Reactor controller
 recipes.remove(<mekanismgenerators:reactor:0>);
 
 mods.extendedcrafting.TableCrafting.addShaped(0, <mekanismgenerators:reactor:0>, [
@@ -610,7 +610,7 @@ recipes.addShaped(<mekanism:jetpack>, [
 	[<simplyjetpacks:metaitemmods:1>, <ore:plateOsmium>, <simplyjetpacks:metaitemmods:1>]
 ]);
 
-// Solar neutron activator (evil laugh)
+// Solar neutron activator
 recipes.remove(<mekanism:machineblock3:1>);
 
 mods.extendedcrafting.TableCrafting.addShaped(<mekanism:machineblock3:1>, [

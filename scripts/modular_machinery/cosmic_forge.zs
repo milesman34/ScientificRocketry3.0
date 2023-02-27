@@ -153,7 +153,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "_tungstensteel", m, 1)
 // Neutronium
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "_neutronium", m, 1)
     .addEnergyPerTickInput(100000000)
-    .addItemOutput(<avaritia:resource:4> * 4)
+    .addItemOutput(<avaritia:resource:4> * 1)
     .addItemInput(<extendedcrafting:material:0>)
     .addFluidInput(<liquid:osmiridium> * 576)
     .addFluidInput(<liquid:tungstensteel> * 576)

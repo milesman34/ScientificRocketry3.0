@@ -9,7 +9,7 @@ recipes.remove(<extendedcrafting:table_basic>);
 // Advanced crafting table recipe (1B RF)
 recipes.remove(<extendedcrafting:table_advanced>);
 
-mods.extendedcrafting.CombinationCrafting.addRecipe(<extendedcrafting:table_advanced>, 1000000000, 1000000, <extendedcrafting:crafting_core>, [
+mods.extendedcrafting.CombinationCrafting.addRecipe(<extendedcrafting:table_advanced>, 1000000000, 10000000, <extendedcrafting:crafting_core>, [
     <appliedenergistics2:molecular_assembler>,
     <appliedenergistics2:molecular_assembler>,
     <appliedenergistics2:molecular_assembler>,
@@ -364,7 +364,7 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:infinite_com
 ]);
 
 // Infinite catalyst
-mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:infinite_catalyst>, 2147483647, 10000000, <avaritia:block_resource:0>, [
+mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:infinite_catalyst>, 2147483647, 10000000, <extendedcrafting:singularity_ultimate>, [
     <contenttweaker:infinite_component>,
     <contenttweaker:infinite_component>,
     <contenttweaker:infinite_component>,
@@ -388,7 +388,7 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:eternal_comp
 ]);
 
 // Eternal catalyst
-mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:eternal_catalyst>, 2147483647, 10000000, <extendedcrafting:singularity_custom:123>, [
+mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:eternal_catalyst>, 2147483647, 10000000, <avaritia:resource:5>, [
     <contenttweaker:eternal_component>,
     <contenttweaker:eternal_component>,
     <contenttweaker:eternal_component>,
@@ -403,15 +403,27 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:eternal_cata
 mods.extendedcrafting.CompressionCrafting.addRecipe(<contenttweaker:heart_of_the_smogus>, <nuclearcraft:foursmore>, 1024, <avaritia:resource:5>, 1000000000, 1000000);
 
 // Vending upgrade
+// mods.extendedcrafting.TableCrafting.addShaped(0, <storagedrawers:upgrade_creative:1> * 2, [
+// 	[<ore:ingotEternity>, <ore:ingotEternity>, <ore:ingotEternity>, <ore:ingotEternity>, <ore:ingotEternity>, <ore:ingotEternity>, <ore:ingotEternity>, <ore:ingotEternity>, <ore:ingotEternity>], 
+// 	[<ore:ingotEternity>, <mekanismgenerators:reactor:0>, <ore:crystalEternity>, <bhc:blue_heart>, <mekanism:energycube:0>.withTag({tier: 4, mekData:{energyStored:1.7976931348623157E308d}}), <bhc:blue_heart>, <ore:crystalEternity>, <mekanismgenerators:reactor:0>, <ore:ingotEternity>], 
+// 	[<ore:ingotEternity>, <mekanismgenerators:reactor:0>, <bhc:blue_heart>, <extendedcrafting:singularity_custom:180>, <solarflux:solar_panel_infinity>, <extendedcrafting:singularity_custom:181>, <bhc:blue_heart>, <mekanismgenerators:reactor:0>, <ore:ingotEternity>], 
+// 	[<ore:ingotEternity>, <extendedcrafting:singularity_custom:176>, <extendedcrafting:compressor>, <enderio:block_cap_bank:0>, <contenttweaker:eternal_catalyst>, <enderio:block_cap_bank:0>, <extendedcrafting:compressor>, <extendedcrafting:singularity_custom:182>, <ore:ingotEternity>], 
+// 	[<ore:ingotEternity>, <extendedcrafting:singularity_custom:177>, <solarflux:solar_panel_infinity>, <contenttweaker:eternal_catalyst>, <contenttweaker:heart_of_the_smogus>, <contenttweaker:eternal_catalyst>, <solarflux:solar_panel_infinity>, <extendedcrafting:singularity_custom:183>, <ore:ingotEternity>], 
+// 	[<ore:ingotEternity>, <extendedcrafting:singularity_custom:130>, <extendedcrafting:compressor>, <enderio:block_cap_bank:0>, <contenttweaker:eternal_catalyst>, <enderio:block_cap_bank:0>, <extendedcrafting:compressor>, <extendedcrafting:singularity_custom:184>, <ore:ingotEternity>], 
+// 	[<ore:ingotEternity>, <mekanismgenerators:reactor:0>, <bhc:blue_heart>, <extendedcrafting:singularity_custom:185>, <solarflux:solar_panel_infinity>, <extendedcrafting:singularity_custom:186>, <bhc:blue_heart>, <mekanismgenerators:reactor:0>, <ore:ingotEternity>], 
+// 	[<ore:ingotEternity>, <mekanismgenerators:reactor:0>, <ore:crystalEternity>, <bhc:blue_heart>, <extendedcrafting:singularity_ultimate>, <bhc:blue_heart>, <ore:crystalEternity>, <mekanismgenerators:reactor:0>, <ore:ingotEternity>], 
+// 	[<ore:ingotEternity>, <ore:ingotEternity>, <ore:ingotEternity>, <ore:ingotEternity>, <ore:ingotEternity>, <ore:ingotEternity>, <ore:ingotEternity>, <ore:ingotEternity>, <ore:ingotEternity>]
+// ]);
+
 mods.extendedcrafting.TableCrafting.addShaped(0, <storagedrawers:upgrade_creative:1> * 2, [
 	[<ore:ingotEternity>, <ore:ingotEternity>, <ore:ingotEternity>, <ore:ingotEternity>, <ore:ingotEternity>, <ore:ingotEternity>, <ore:ingotEternity>, <ore:ingotEternity>, <ore:ingotEternity>], 
-	[<ore:ingotEternity>, <mekanismgenerators:reactor:0>, <ore:crystalEternity>, <bhc:blue_heart>, <mekanism:energycube:0>.withTag({tier: 4, mekData:{energyStored:1.7976931348623157E308d}}), <bhc:blue_heart>, <ore:crystalEternity>, <mekanismgenerators:reactor:0>, <ore:ingotEternity>], 
-	[<ore:ingotEternity>, <mekanismgenerators:reactor:0>, <bhc:blue_heart>, <extendedcrafting:singularity_custom:180>, <solarflux:solar_panel_infinity>, <extendedcrafting:singularity_custom:181>, <bhc:blue_heart>, <mekanismgenerators:reactor:0>, <ore:ingotEternity>], 
-	[<ore:ingotEternity>, <extendedcrafting:singularity_custom:176>, <extendedcrafting:compressor>, <enderio:block_cap_bank:0>, <contenttweaker:eternal_catalyst>, <enderio:block_cap_bank:0>, <extendedcrafting:compressor>, <extendedcrafting:singularity_custom:182>, <ore:ingotEternity>], 
-	[<ore:ingotEternity>, <extendedcrafting:singularity_custom:177>, <solarflux:solar_panel_infinity>, <contenttweaker:eternal_catalyst>, <contenttweaker:heart_of_the_smogus>, <contenttweaker:eternal_catalyst>, <solarflux:solar_panel_infinity>, <extendedcrafting:singularity_custom:183>, <ore:ingotEternity>], 
-	[<ore:ingotEternity>, <extendedcrafting:singularity_custom:130>, <extendedcrafting:compressor>, <enderio:block_cap_bank:0>, <contenttweaker:eternal_catalyst>, <enderio:block_cap_bank:0>, <extendedcrafting:compressor>, <extendedcrafting:singularity_custom:184>, <ore:ingotEternity>], 
-	[<ore:ingotEternity>, <mekanismgenerators:reactor:0>, <bhc:blue_heart>, <extendedcrafting:singularity_custom:185>, <solarflux:solar_panel_infinity>, <extendedcrafting:singularity_custom:186>, <bhc:blue_heart>, <mekanismgenerators:reactor:0>, <ore:ingotEternity>], 
-	[<ore:ingotEternity>, <mekanismgenerators:reactor:0>, <ore:crystalEternity>, <bhc:blue_heart>, <extendedcrafting:singularity_ultimate>, <bhc:blue_heart>, <ore:crystalEternity>, <mekanismgenerators:reactor:0>, <ore:ingotEternity>], 
+	[<ore:ingotEternity>, <mekanismgenerators:reactor>, <ore:crystalEternity>, <bhc:blue_heart_canister>, <mekanism:energycube:0>.withTag({tier: 4, mekData:{energyStored:1.7976931348623157E308d}}), <bhc:blue_heart_canister>, <ore:crystalEternity>, <mekanismgenerators:reactor>, <ore:ingotEternity>], 
+	[<ore:ingotEternity>, <mekanismgenerators:reactor>, <bhc:blue_heart_canister>, <avaritia:infinity_sword>, <solarflux:solar_panel_infinity>, <avaritia:infinity_bow>, <bhc:blue_heart_canister>, <mekanismgenerators:reactor>, <ore:ingotEternity>], 
+	[<ore:ingotEternity>, <avaritia:infinity_helmet>, <extendedcrafting:compressor>, <enderio:block_cap_bank:0>, <contenttweaker:eternal_catalyst>, <enderio:block_cap_bank:0>, <extendedcrafting:compressor>, <avaritia:infinity_pants>, <ore:ingotEternity>], 
+	[<ore:ingotEternity>, <avaritia:infinity_pickaxe>, <solarflux:solar_panel_infinity>, <contenttweaker:eternal_catalyst>, <contenttweaker:heart_of_the_smogus>, <contenttweaker:eternal_catalyst>, <solarflux:solar_panel_infinity>, <avaritia:infinity_axe>, <ore:ingotEternity>], 
+	[<ore:ingotEternity>, <avaritia:infinity_chestplate>, <extendedcrafting:compressor>, <enderio:block_cap_bank:0>, <contenttweaker:eternal_catalyst>, <enderio:block_cap_bank:0>, <extendedcrafting:compressor>, <avaritia:infinity_boots>, <ore:ingotEternity>], 
+	[<ore:ingotEternity>, <mekanismgenerators:reactor>, <bhc:blue_heart_canister>, <avaritia:infinity_shovel>, <solarflux:solar_panel_infinity>, <avaritia:infinity_hoe>, <bhc:blue_heart_canister>, <mekanismgenerators:reactor>, <ore:ingotEternity>], 
+	[<ore:ingotEternity>, <mekanismgenerators:reactor>, <ore:crystalEternity>, <bhc:blue_heart_canister>, <thermalexpansion:capacitor:32000>, <bhc:blue_heart_canister>, <ore:crystalEternity>, <mekanismgenerators:reactor>, <ore:ingotEternity>], 
 	[<ore:ingotEternity>, <ore:ingotEternity>, <ore:ingotEternity>, <ore:ingotEternity>, <ore:ingotEternity>, <ore:ingotEternity>, <ore:ingotEternity>, <ore:ingotEternity>, <ore:ingotEternity>]
 ]);
 

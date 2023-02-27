@@ -7,81 +7,80 @@ recipes.remove(<nuclearcraft:part:12>);
 recipes.remove(<nuclearcraft:part:1>);
 
 // Basic plating
-recipes.addShaped(<nuclearcraft:part:0> * 4, [
-    [<ore:plateLead>, <ore:ingotGraphite>, <ore:plateLead>],
-    [<ore:ingotGraphite>, <ore:plateLead>, <ore:ingotGraphite>],
-    [<ore:plateLead>, <ore:ingotGraphite>, <ore:plateLead>]
+recipes.addShaped(<nuclearcraft:part:0> * 2, [
+    [<ore:plateLead>, <ore:ingotGraphite>],
+    [<ore:ingotGraphite>, <ore:plateLead>]
 ]);
 
 // Servomechanism
 recipes.addShaped(<nuclearcraft:part:7>, [
-    [<ore:ingotFerroboron>, null, <ore:ingotFerroboron>],
-    [<ore:dustRedstone>, <ore:plateSteel>, <ore:dustRedstone>],
-    [<ore:plateSteel>, <ore:gearSignalum>, <ore:plateSteel>]
+	[<ore:ingotFerroboron>, null, <ore:ingotFerroboron>], 
+	[<ore:plateElectrumFlux>, <ore:gearSignalum>, <ore:plateElectrumFlux>], 
+	[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]
 ]);
 
 // Linear actuator
 recipes.addShaped(<nuclearcraft:part:9>, [
-    [null, null, <ore:ingotSteel>],
-    [<ore:ingotFerroboron>, <minecraft:piston>, null],
-    [<ore:gearSignalum>, <ore:ingotFerroboron>, null]
+	[null, <ore:plateSteel>, <actuallyadditions:item_crystal:2>], 
+	[<ore:ingotTough>, <minecraft:piston>, <ore:plateSteel>], 
+	[<ore:gearDarkSteel>, <ore:ingotTough>, null]
 ]);
 
 // Copper solenoid
 recipes.remove(<nuclearcraft:part:4> * 2);
 
 recipes.addShaped(<nuclearcraft:part:4> * 2, [
-    [<ore:ingotCopper>, <ore:ingotCopper>], 
-	[<ore:ingotElectricalSteel>, <ore:ingotElectricalSteel>], 
-	[<ore:ingotCopper>, <ore:ingotCopper>]
+	[<ore:plateCopper>, <actuallyadditions:item_crystal>, <ore:plateCopper>], 
+	[<ore:ingotElectricalSteel>, <actuallyadditions:item_crystal>, <ore:ingotElectricalSteel>], 
+	[<ore:plateCopper>, <actuallyadditions:item_crystal>, <ore:plateCopper>]
 ]);
 
 // Electric motor
 recipes.remove(<nuclearcraft:part:8>);
 
 recipes.addShaped(<nuclearcraft:part:8>, [
-	[<ore:ingotElectricalSteel>, <ore:ingotElectricalSteel>, <ore:nuggetLumium>], 
-	[<ore:solenoidCopper>, <ore:solenoidCopper>, <ore:ingotIron>], 
-	[<ore:ingotElectricalSteel>, <ore:ingotElectricalSteel>, <ore:nuggetLumium>]
+	[<ore:ingotRedAlloy>, <ore:ingotElectricalSteel>, <ore:ingotElectrotineAlloy>], 
+	[<ore:solenoidCopper>, <ore:gearLumium>, <ore:solenoidCopper>], 
+	[<ore:ingotRedAlloy>, <ore:ingotElectricalSteel>, <ore:ingotElectrotineAlloy>]
 ]);
 
 // Machine chassis
 recipes.addShaped(<nuclearcraft:part:10>, [
-    [<ore:plateSteel>, <ore:plateBasic>, <ore:plateSteel>],
-    [<ore:plateBasic>, <contenttweaker:tough_alloy_gear>, <ore:plateBasic>],
-    [<ore:plateSteel>, <ore:plateBasic>, <ore:plateSteel>]
+	[<ore:plateSteel>, <ore:alloyUltimate>, <ore:plateSteel>], 
+	[<ore:plateBasic>, <ore:gearVoid>, <ore:plateBasic>], 
+	[<ore:plateSteel>, <ore:alloyUltimate>, <ore:plateSteel>]
 ]);
 
 // Steel chassis
 recipes.addShaped(<nuclearcraft:part:12>, [
-    [<ore:plateSteel>, <ore:ingotTough>, <ore:plateSteel>],
-    [<ore:ingotTough>, <ore:gearBronze>, <ore:ingotTough>],
-    [<ore:plateSteel>, <ore:ingotTough>, <ore:plateSteel>]
+	[<ore:plateExtreme>, <ore:gearTitanium>, <ore:plateExtreme>], 
+	[<ore:plateAdvanced>, <ore:chassis>, <ore:plateAdvanced>], 
+	[<ore:plateExtreme>, <ore:gearTitanium>, <ore:plateExtreme>]
 ]);
 
 // Advanced plating
 recipes.addShaped(<nuclearcraft:part:1>, [
-    [<ore:ingotEnergeticAlloy>, <ore:ingotElectricalSteel>, <ore:ingotEnergeticAlloy>],
-    [<ore:ingotTough>, <nuclearcraft:part:0>, <ore:ingotTough>],
-    [<ore:ingotEnergeticAlloy>, <ore:ingotElectricalSteel>, <ore:ingotEnergeticAlloy>]
+    [<ore:plateEnergeticAlloy>, <actuallyadditions:item_crystal:5>, <ore:plateEnergeticAlloy>],
+    [<ore:plateTough>, <nuclearcraft:part:0>, <ore:plateTough>],
+    [<ore:plateEnergeticAlloy>, <actuallyadditions:item_crystal:5>, <ore:plateEnergeticAlloy>]
 ]);
 
 // DU plating
 recipes.remove(<nuclearcraft:part:2>);
 
 recipes.addShaped(<nuclearcraft:part:2>, [
-    [<ore:ingotSignalum>, <ore:nuggetUranium238>, <ore:ingotSignalum>], 
-	[<ore:nuggetUranium238>, <ore:plateAdvanced>, <ore:nuggetUranium238>], 
-	[<ore:ingotSignalum>, <ore:nuggetUranium238>, <ore:ingotSignalum>]
+	[<ore:plateExtreme>, <ore:plateVoidEmpowered>, <ore:plateExtreme>], 
+	[<ore:ingotUranium238>, <ore:plateAdvanced>, <ore:ingotUranium238>], 
+	[<ore:plateExtreme>, <ore:plateVoidEmpowered>, <ore:plateExtreme>]
 ]);
 
 // Elite plating
 recipes.remove(<nuclearcraft:part:3>);
 
 recipes.addShaped(<nuclearcraft:part:3>, [
-    [<ore:dustCrystalBinder>, <ore:ingotOsmiridium>, <ore:dustCrystalBinder>], 
-	[<ore:ingotThermoconducting>, <ore:plateDU>, <ore:ingotThermoconducting>], 
-	[<ore:dustCrystalBinder>, <ore:ingotOsmiridium>, <ore:dustCrystalBinder>]
+    [<ore:dustCrystalBinder>, <ore:plateOsmiridium>, <ore:dustCrystalBinder>], 
+	[<ore:plateThermoconducting>, <ore:plateDU>, <ore:plateThermoconducting>], 
+	[<ore:dustCrystalBinder>, <ore:plateOsmiridium>, <ore:dustCrystalBinder>]
 ]);
 
 // Speed upgrade
@@ -102,19 +101,19 @@ recipes.addShaped(<nuclearcraft:upgrade:0> * 2, [
 // Fission reactor casing
 recipes.remove(<nuclearcraft:fission_casing>);
 
-recipes.addShaped(<nuclearcraft:fission_casing> * 2, [
-    [<ore:plateLumium>, <ore:plateAdvanced>, <ore:plateLumium>], 
-	[<ore:plateAdvanced>, <ore:steelFrame>, <ore:plateAdvanced>], 
-	[<ore:plateLumium>, <ore:plateAdvanced>, <ore:plateLumium>]
+recipes.addShaped(<nuclearcraft:fission_casing> * 4, [
+	[<ore:plateTungsten>, <ore:plateThermoconducting>, <ore:plateTungsten>], 
+	[<ore:plateDU>, <ore:steelFrame>, <ore:plateDU>], 
+	[<ore:plateTungsten>, <ore:plateThermoconducting>, <ore:plateTungsten>]
 ]);
 
 // Turbine casing
 recipes.remove(<nuclearcraft:turbine_casing>);
 
-recipes.addShaped(<nuclearcraft:turbine_casing> * 2, [
-	[<ore:ingotHSLASteel>, <ore:gearLumium>, <ore:ingotHSLASteel>], 
-	[<ore:gearSignalum>, <nuclearcraft:part:12>, <ore:gearSignalum>], 
-	[<ore:ingotHSLASteel>, <ore:gearLumium>, <ore:ingotHSLASteel>]
+recipes.addShaped(<nuclearcraft:turbine_casing> * 4, [
+	[<ore:plateHSLASteel>, <contenttweaker:blade_hc>, <ore:plateHSLASteel>], 
+	[<extendedcrafting:material:16>, <ore:steelFrame>, <extendedcrafting:material:16>], 
+	[<ore:plateHSLASteel>, <contenttweaker:blade_hc>, <ore:plateHSLASteel>]
 ]);
 
 // Disables solars
@@ -184,45 +183,45 @@ recipes.addShapeless(<nuclearcraft:compound:2> * 2, [
 recipes.remove(<nuclearcraft:turbine_rotor_shaft> * 4);
 
 recipes.addShaped(<nuclearcraft:turbine_rotor_shaft> * 4, [
-	[<ore:ingotHSLASteel>, <ore:ingotHSLASteel>, <ore:ingotHSLASteel>], 
-	[<ore:ingotMithril>, <actuallyadditions:item_crystal_empowered:2>, <ore:ingotMithril>], 
-	[<ore:ingotHSLASteel>, <ore:ingotHSLASteel>, <ore:ingotHSLASteel>]
+	[<ore:plateHSLASteel>, <ore:plateHSLASteel>, <ore:plateHSLASteel>], 
+	[<actuallyadditions:item_crystal_empowered:2>, <ore:gearMithril>, <actuallyadditions:item_crystal_empowered:2>], 
+	[<ore:plateHSLASteel>, <ore:plateHSLASteel>, <ore:plateHSLASteel>]
 ]);
 
 // Turbine controller
 recipes.remove(<nuclearcraft:turbine_controller>);
 
 recipes.addShaped(<nuclearcraft:turbine_controller>, [
-	[<ore:ingotHSLASteel>, <extendedcrafting:material:16>, <ore:ingotHSLASteel>], 
-	[<ore:circuitUltimate>, <nuclearcraft:turbine_casing>, <ore:circuitUltimate>], 
-	[<ore:ingotHSLASteel>, <extendedcrafting:material:16>, <ore:ingotHSLASteel>]
+	[<ore:plateTungsten>, <extendedcrafting:material:10>, <ore:plateTungsten>], 
+	[<advgenerators:turbine_controller>, <nuclearcraft:turbine_casing>, <advgenerators:turbine_controller>], 
+	[<ore:plateTungsten>, <extendedcrafting:material:10>, <ore:plateTungsten>]
 ]);
 
 // Turbine rotor bearing
 recipes.remove(<nuclearcraft:turbine_rotor_bearing> * 4);
 
 recipes.addShaped(<nuclearcraft:turbine_rotor_bearing> * 4, [
-	[<ore:ingotHSLASteel>, <ore:ingotHSLASteel>, <ore:ingotHSLASteel>], 
-	[<ore:ingotOsgloglas>, <actuallyadditions:item_crystal_empowered:4>, <ore:ingotOsgloglas>], 
-	[<ore:ingotHSLASteel>, <ore:ingotHSLASteel>, <ore:ingotHSLASteel>]
+	[<ore:plateHSLASteel>, <ore:plateHSLASteel>, <ore:plateHSLASteel>], 
+	[<actuallyadditions:item_crystal_empowered:4>, <ore:gearOsgloglas>, <actuallyadditions:item_crystal_empowered:4>], 
+	[<ore:plateHSLASteel>, <ore:plateHSLASteel>, <ore:plateHSLASteel>]
 ]);
 
 // Quantum computer controller
 recipes.remove(<nuclearcraft:quantum_computer_controller>);
 
 recipes.addShaped(<nuclearcraft:quantum_computer_controller>, [
-	[<ore:ingotExtreme>, <nuclearcraft:quantum_computer_qubit>, <ore:ingotExtreme>], 
+	[<ore:plateExtreme>, <nuclearcraft:quantum_computer_qubit>, <ore:plateExtreme>], 
 	[<ore:gearEnderium>, <thermalexpansion:frame:147>, <ore:gearEnderium>], 
-	[<ore:ingotExtreme>, <nuclearcraft:quantum_computer_qubit>, <ore:ingotExtreme>]
+	[<ore:plateExtreme>, <nuclearcraft:quantum_computer_qubit>, <ore:plateExtreme>]
 ]);
 
 // Qubit
 recipes.remove(<nuclearcraft:quantum_computer_qubit>);
 
 recipes.addShaped(<nuclearcraft:quantum_computer_qubit>, [
-	[<ore:ingotExtreme>, <ore:blockVibrantAlloy>, <ore:ingotExtreme>], 
+	[<ore:plateExtreme>, <ore:blockVibrantAlloy>, <ore:plateExtreme>], 
 	[<actuallyadditions:block_crystal_empowered:1>, <ore:circuitUltimate>, <actuallyadditions:block_crystal_empowered:1>], 
-	[<ore:ingotExtreme>, <ore:blockVibrantAlloy>, <ore:ingotExtreme>]
+	[<ore:plateExtreme>, <ore:blockVibrantAlloy>, <ore:plateExtreme>]
 ]);
 
 // Assembler
@@ -236,3 +235,23 @@ recipes.addShaped(<nuclearcraft:assembler>, [
 
 // Helium (from End Stone)
 mods.nuclearcraft.Extractor.addRecipe(<minecraft:end_stone>, <enderio:item_material:62>, <liquid:helium> * 1000, 1.0, 2.0);
+
+// Manufactory
+recipes.remove(<nuclearcraft:manufactory>);
+
+recipes.addShaped(<nuclearcraft:manufactory>, [
+	[<ore:plateDarkSteel>, <minecraft:piston>, <ore:plateDarkSteel>], 
+	[<ore:solenoidCopper>, <actuallyadditions:block_misc:9>, <ore:solenoidCopper>], 
+	[<ore:plateDarkSteel>, <ore:gearRestonia>, <ore:plateDarkSteel>]
+]);
+
+// Removes some non fluid infuser recipes
+recipes.remove(<nuclearcraft:fission_heater_port2:13>);
+recipes.remove(<nuclearcraft:fission_heater_port2:12>);
+recipes.remove(<nuclearcraft:solid_fission_sink:0>);
+recipes.remove(<nuclearcraft:solid_fission_sink2:12>);
+recipes.remove(<nuclearcraft:solid_fission_sink2:13>);
+recipes.remove(<nuclearcraft:salt_fission_heater2:12>);
+recipes.remove(<nuclearcraft:salt_fission_heater2:13>);
+recipes.remove(<nuclearcraft:cobblestone_generator>);
+recipes.remove(<nuclearcraft:water_source>);

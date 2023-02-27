@@ -176,7 +176,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <solarflux:custom_solar_panel_a
 ]);
 
 // Neutronium photovoltaic cell (2147483647 RF)
-mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:neutronium_photovoltaic_cell>, 1000000000, 1000000, <contenttweaker:adamantium_photovoltaic_cell>, [
+mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:neutronium_photovoltaic_cell>, 1000000000, 10000000, <contenttweaker:adamantium_photovoltaic_cell>, [
     <contenttweaker:adamantium_photovoltaic_cell>,
     <contenttweaker:adamantium_photovoltaic_cell>,
     <moreplates:neutronium_plate>,

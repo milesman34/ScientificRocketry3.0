@@ -239,7 +239,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <projectred-fabrication:ic_chip
 ]);
 
 // Creative screen
-mods.extendedcrafting.CombinationCrafting.addRecipe(<rftools:creative_screen>, 1200000000, 1000000, <extendedcrafting:material:11>, [
+mods.extendedcrafting.CombinationCrafting.addRecipe(<rftools:creative_screen>, 1200000000, 10000000, <extendedcrafting:material:11>, [
 	<rftools:screen>,
 	<rftools:screen>,
 	<rftools:screen>,
@@ -247,11 +247,15 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<rftools:creative_screen>, 1
 	<rftools:screen>,
 	<rftools:screen>,
 	<nuclearcraft:quantum_computer_controller>,
-	<rftools:machine_infuser>
+	<rftools:machine_infuser>,
+	<rftools:screen_controller>,
+	<opencomputers:screen3:0>,
+	<openglasses:openglassesterminal>,
+	<advancedrocketry:satelliteprimaryfunction>
 ]);
 
 // Creative jetpack
-mods.extendedcrafting.CombinationCrafting.addRecipe(<simplyjetpacks:itemjetpack:0>.withTag({Energy: 200000, JetpackParticleType: 0}), 2000000000, 1000000, <extendedcrafting:material:13>, [
+mods.extendedcrafting.CombinationCrafting.addRecipe(<simplyjetpacks:itemjetpack:0>.withTag({Energy: 200000, JetpackParticleType: 0}), 2000000000, 10000000, <extendedcrafting:material:13>, [
 	<simplyjetpacks:itemjetpack:24>,
 	<simplyjetpacks:itemjetpack:15>,
 	<simplyjetpacks:itemjetpack:6>,
@@ -265,7 +269,7 @@ recipes.replaceAllOccurences(<ore:gemDiamond>, <actuallyadditions:item_crystal_e
 recipes.replaceAllOccurences(<minecraft:gold_block>, <thermalfoundation:storage_alloy:6>, <torchmaster:mega_torch:0>);
 
 // Feral flare lantern
-recipes.replaceAllOccurences(<ore:ingotGold>, <ore:ingotLumium>, <torchmaster:feral_flare_lantern>);
+recipes.replaceAllOccurences(<ore:ingotGold>, <ore:plateLumium>, <torchmaster:feral_flare_lantern>);
 
 // Interdiction pulsar
 recipes.replaceAllOccurences(<ore:dyeBlue>, <ore:plateEnderium>, <cyclicmagic:magnet_anti_block>);
@@ -329,4 +333,15 @@ recipes.addShaped(<buildinggadgets:templatemanager>, [
 	[<ore:plateElectricalSteel>, <ore:circuitAdvanced>, <ore:plateElectricalSteel>], 
 	[<actuallyadditions:item_crystal:4>, <rftools:machine_frame>, <actuallyadditions:item_crystal:4>], 
 	[<ore:plateElectricalSteel>, <ironchest:iron_chest>, <ore:plateElectricalSteel>]
+]);
+
+// Some storage upgrades
+recipes.replaceAllOccurences(<ore:gemDiamond>, <actuallyadditions:item_crystal:2>, <storagedrawers:upgrade_storage:3>);
+recipes.replaceAllOccurences(<ore:gemEmerald>, <actuallyadditions:item_crystal_empowered:4>, <storagedrawers:upgrade_storage:4>);
+
+// Void upgrade alt recipe
+recipes.addShaped(<storagedrawers:upgrade_void>, [
+	[<actuallyadditions:item_crystal:3>, <actuallyadditions:item_crystal:3>, <actuallyadditions:item_crystal:3>], 
+	[<actuallyadditions:item_crystal:3>, <storagedrawers:upgrade_template>, <actuallyadditions:item_crystal:3>], 
+	[<actuallyadditions:item_crystal:3>, <actuallyadditions:item_crystal:3>, <actuallyadditions:item_crystal:3>]
 ]);

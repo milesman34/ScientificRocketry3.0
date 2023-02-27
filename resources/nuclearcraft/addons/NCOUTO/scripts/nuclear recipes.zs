@@ -9,7 +9,7 @@ emerald: <ore:gemEmerald>, diamond: <ore:gemDiamond>, villiaumite: <ore:gemVilli
 hardcarbon: <ore:ingotHardCarbon>, zircaloy: <ore:ingotZircaloy>, thermoconducting: <ore:ingotThermoconducting>, iron: <ore:ingotIron>,
 boron: <ore:ingotBoron>, quartz: <ore:gemQuartz>, arsenic: <ore:dustArsenic>, glowstone: <ore:dustGlowstone>, nether: <ore:ingotBrickNether>,
 obsidian: <ore:obsidian>, end: <ore:endstone>, prismarine: <ore:gemPrismarine>, purpur: <minecraft:purpur_block>, lead: <ore:ingotLead>, 
-manganese: <ore:ingotManganese>, slime: <ore:slimeball>, enderium: <ore:ingotEnderium>, cryotheum: <ore:dustCryotheum>, tin: <ore:ingotTin> } as IIngredient[string];
+manganese: <ore:ingotManganese>, slime: <ore:slimeball>, tin: <ore:ingotTin> } as IIngredient[string];
 
 for name, material in material_map {
 	recipes.addShaped("ncouto" ~ name ~ "coil", itemUtils.getItem("nuclearcraft:turbine_dynamo_coil_" ~ name)*2,
@@ -19,9 +19,9 @@ for name, material in material_map {
 
 
 recipes.addShaped("ncoutoEmptyCoil", <nuclearcraft:turbine_dynamo_coil_empty>*2, 
-[[<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>],
+[[<ore:blockGlassHardened>, <ore:blockGlassHardened>, <ore:blockGlassHardened>],
 [<nuclearcraft:alloy:15>, <nuclearcraft:alloy:1>, <nuclearcraft:alloy:15>],
-[<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>]]);
+[<ore:blockGlassHardened>, <ore:blockGlassHardened>, <ore:blockGlassHardened>]]);
 
 recipes.addShaped("ncoutosmorecoil", <nuclearcraft:turbine_dynamo_coil_smore>*2,
 	[[<nuclearcraft:smore>, <nuclearcraft:moresmore>, <nuclearcraft:foursmore>],

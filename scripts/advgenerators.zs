@@ -2,62 +2,60 @@
 recipes.remove(<advgenerators:iron_frame> * 2);
 
 recipes.addShaped(<advgenerators:iron_frame>, [
-    [null, <ore:ingotElectricalSteel>, null], 
-	[<ore:ingotElectricalSteel>, <enderio:item_basic_capacitor:2>, <ore:ingotElectricalSteel>], 
-	[null, <ore:ingotElectricalSteel>, null]
+    [null, <ore:plateElectricalSteel>, null], 
+	[<ore:plateElectricalSteel>, <enderio:item_basic_capacitor:2>, <ore:plateElectricalSteel>], 
+	[null, <ore:plateElectricalSteel>, null]
 ]);
 
 // Power IO module
 recipes.remove(<advgenerators:power_io>);
 
 recipes.addShaped(<advgenerators:power_io>, [
-	[<ore:ingotEnrichedSignalum>, <ore:gearRestoniaEmpowered>, <ore:ingotEnrichedSignalum>], 
+	[<ore:plateEnrichedSignalum>, <ore:gearRestoniaEmpowered>, <ore:plateEnrichedSignalum>], 
 	[<enderio:block_cap_bank:3>, <mekanism:basicblock2:3>.withTag({tier: 1}), <enderio:block_cap_bank:3>], 
-	[<ore:ingotEnrichedSignalum>, <ore:gearRestoniaEmpowered>, <ore:ingotEnrichedSignalum>]
+	[<ore:plateEnrichedSignalum>, <ore:gearRestoniaEmpowered>, <ore:plateEnrichedSignalum>]
 ]);
 
 // Iron tubing
 recipes.remove(<advgenerators:iron_tubing> * 16);
 
 recipes.addShaped(<advgenerators:iron_tubing> * 4, [
-	[null, <ore:ingotSteel>, <actuallyadditions:item_misc:8>], 
-	[<ore:ingotSteel>, <ore:gearNickel>, <ore:ingotSteel>], 
-	[<actuallyadditions:item_misc:8>, <ore:ingotSteel>, null]
+	[null, <ore:ingotIridium>, <actuallyadditions:item_misc:8>], 
+	[<ore:ingotIridium>, <ore:gearEnoriEmpowered>, <ore:ingotIridium>], 
+	[<actuallyadditions:item_misc:8>, <ore:ingotIridium>, null]
 ]);
 
 // Redstone-iron wiring
 recipes.remove(<advgenerators:iron_wiring> * 16);
 
 recipes.addShaped(<advgenerators:iron_wiring> * 4, [
-	[null, <ore:ingotVividAlloy>, <actuallyadditions:item_misc:8>], 
-	[<ore:ingotVividAlloy>, <ore:gearEnrichedSignalum>, <ore:ingotVividAlloy>], 
-	[<actuallyadditions:item_misc:8>, <ore:ingotVividAlloy>, null]
+	[null, <ore:ingotOsgloglas>, <actuallyadditions:item_misc:8>], 
+	[<ore:ingotOsgloglas>, <ore:gearRestoniaEmpowered>, <ore:ingotOsgloglas>], 
+	[<actuallyadditions:item_misc:8>, <ore:ingotOsgloglas>, null]
 ]);
 
 // Control circuit
 recipes.remove(<advgenerators:controller>);
 
 recipes.addShaped(<advgenerators:controller>, [
-	[<ore:ingotOsgloglas>, <actuallyadditions:item_crystal_empowered>, <ore:ingotOsgloglas>], 
-	[<actuallyadditions:item_crystal_empowered>, <ore:circuitUltimate>, <actuallyadditions:item_crystal_empowered>], 
-	[<ore:ingotOsgloglas>, <actuallyadditions:item_crystal_empowered>, <ore:ingotOsgloglas>]
+	[<ore:plateOsgloglas>, <ore:skullZombieController>, <ore:plateOsgloglas>], 
+	[<advancedrocketry:ic:2>, <ore:circuitUltimate>, <advancedrocketry:ic:2>], 
+	[<ore:plateOsgloglas>, <advancedrocketry:ic:3>, <ore:plateOsgloglas>]
 ]);
 
 // Pressure valve
 recipes.remove(<advgenerators:pressure_valve>);
 
 recipes.addShaped(<advgenerators:pressure_valve>, [
-    [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>], 
-	[<advgenerators:iron_tubing>, <advgenerators:iron_tubing>, <advgenerators:iron_tubing>], 
-	[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]
+	[<ore:plateElectricalSteel>, <thermaldynamics:duct_16:6>, <ore:plateElectricalSteel>], 
+	[<advgenerators:iron_tubing>, <ore:gearOsmiridium>, <advgenerators:iron_tubing>], 
+	[<ore:plateElectricalSteel>, <thermaldynamics:duct_16:6>, <ore:plateElectricalSteel>]
 ]);
 
 // Adv. pressure valve
-recipes.addShaped(<advgenerators:advanced_pressure_valve>, [
-    [<ore:ingotVividAlloy>, <ore:plateEnderium>, <ore:ingotVividAlloy>], 
-	[<ore:plateEnderium>, <advgenerators:pressure_valve>, <ore:plateEnderium>], 
-	[<ore:ingotVividAlloy>, <ore:plateEnderium>, <ore:ingotVividAlloy>]
-]);
+mods.thermalexpansion.Transposer.addFillRecipe(<advgenerators:advanced_pressure_valve>, <advgenerators:pressure_valve>, <liquid:mithril> * 1152, 16000);
+
+mods.nuclearcraft.Infuser.addRecipe(<advgenerators:pressure_valve>, <liquid:mithril> * 1152, <advgenerators:advanced_pressure_valve>, 2.5, 2.5);
 
 // Flux generator
 recipes.remove(<advgenerators:rf_output>);
