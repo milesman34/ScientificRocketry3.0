@@ -10,9 +10,8 @@
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "f946cea3",
+		uid: "5ef0b5eb",
 		type: "item",
-		item: "enderio:item_alloy_ingot 1 2",
-		count: 16
+		item: "mekanism:teleportationcore"
 	}]
 }

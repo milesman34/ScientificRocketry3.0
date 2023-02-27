@@ -31,9 +31,9 @@
 		}]
 	}],
 	rewards: [{
-		uid: "1045b6a7",
+		uid: "0fbb8500",
 		type: "item",
-		item: "thermalfoundation:material 1 135",
+		item: "libvulpes:structuremachine",
 		count: 16
 	}]
 }

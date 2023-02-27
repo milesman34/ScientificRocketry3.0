@@ -10,11 +10,5 @@
 		items: [{
 			item: "nuclearcraft:enricher"
 		}]
-	}],
-	rewards: [{
-		uid: "b5696a34",
-		type: "item",
-		item: "actuallyadditions:item_crystal 1 1",
-		count: 32
 	}]
 }

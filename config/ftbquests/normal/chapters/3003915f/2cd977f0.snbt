@@ -1,6 +1,9 @@
 {
 	x: 1.5d,
 	y: 1.5d,
+	text: [
+		"This machine lets you automatically spawn mobs."
+	],
 	tasks: [{
 		uid: "633c0653",
 		type: "item",
@@ -9,9 +12,8 @@
 		}]
 	}],
 	rewards: [{
-		uid: "bd28d3a6",
+		uid: "a6ff3616",
 		type: "item",
-		item: "thermalfoundation:material 1 167",
-		count: 16
+		item: "industrialforegoing:mob_imprisonment_tool"
 	}]
 }

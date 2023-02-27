@@ -9,9 +9,8 @@
 		}]
 	}],
 	rewards: [{
-		uid: "c69d69a2",
+		uid: "85131f0d",
 		type: "item",
-		item: "enderio:item_alloy_ingot 1 3",
-		count: 16
+		item: "industrialforegoing:range_addon 1 11"
 	}]
 }

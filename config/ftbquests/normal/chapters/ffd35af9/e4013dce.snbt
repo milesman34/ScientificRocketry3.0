@@ -15,11 +15,5 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
-	}],
-	rewards: [{
-		uid: "f85a899e",
-		type: "item",
-		item: "redstonerepository:material 1 5",
-		count: 16
 	}]
 }

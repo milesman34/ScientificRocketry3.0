@@ -14,9 +14,9 @@
 		}]
 	}],
 	rewards: [{
-		uid: "16faf238",
+		uid: "a75f0720",
 		type: "item",
-		item: "extendedcrafting:material 1 48",
+		item: "storagedrawers:upgrade_storage 1 4",
 		count: 16
 	}]
 }

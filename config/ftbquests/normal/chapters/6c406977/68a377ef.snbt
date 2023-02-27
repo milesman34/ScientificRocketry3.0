@@ -9,8 +9,8 @@
 		}]
 	}],
 	rewards: [{
-		uid: "f30b5b16",
+		uid: "d0a35b49",
 		type: "item",
-		item: "actuallyadditions:block_misc 1 4"
+		item: "actuallyadditions:block_giant_chest"
 	}]
 }

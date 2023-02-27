@@ -15,9 +15,9 @@
 		}]
 	}],
 	rewards: [{
-		uid: "6e93f2e8",
+		uid: "187389db",
 		type: "item",
-		item: "contenttweaker:terrestrial_artifact",
-		count: 8
+		item: "advancedrocketry:ic 1 2",
+		count: 4
 	}]
 }

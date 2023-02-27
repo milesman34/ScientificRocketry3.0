@@ -14,9 +14,9 @@
 		count: 10L
 	}],
 	rewards: [{
-		uid: "f0ea7840",
+		uid: "96f243d4",
 		type: "item",
-		item: "extendedcrafting:material 1 32",
-		count: 16
+		item: "bhc:blue_heart",
+		count: 4
 	}]
 }

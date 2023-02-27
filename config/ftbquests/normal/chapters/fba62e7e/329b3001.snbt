@@ -16,9 +16,9 @@
 		}]
 	}],
 	rewards: [{
-		uid: "9876d7a3",
+		uid: "8232e2de",
 		type: "item",
-		item: "thermalfoundation:material 1 136",
-		count: 16
+		item: "contenttweaker:mithril_photovoltaic_cell",
+		count: 8
 	}]
 }

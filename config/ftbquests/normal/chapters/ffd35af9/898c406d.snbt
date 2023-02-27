@@ -16,11 +16,5 @@
 			}
 		}],
 		ignore_nbt: 1b
-	}],
-	rewards: [{
-		uid: "6252156a",
-		type: "item",
-		item: "redstonearsenal:material 1 32",
-		count: 16
 	}]
 }

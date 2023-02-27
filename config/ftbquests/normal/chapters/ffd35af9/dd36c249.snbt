@@ -116,29 +116,5 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
-	}],
-	rewards: [{
-		uid: "f2da6851",
-		type: "item",
-		item: "enderio:item_alloy_endergy_ingot 1 2",
-		count: 16
-	},
-	{
-		uid: "f0c1b6c2",
-		type: "item",
-		item: "redstonerepository:material 1 5",
-		count: 16
-	},
-	{
-		uid: "f22d2461",
-		type: "item",
-		item: "redstonerepository:material 1 1",
-		count: 16
-	},
-	{
-		uid: "0771fa27",
-		type: "item",
-		item: "enderio:item_alloy_ingot 1 8",
-		count: 32
 	}]
 }

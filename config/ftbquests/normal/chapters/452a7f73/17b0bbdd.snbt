@@ -9,9 +9,7 @@
 		"",
 		"It can also be used to research for other planets, using 100 of each data.",
 		"",
-		"It can also be provided with artifacts to allow it to go to certain specific planets.",
-		"",
-		"There are no mobs on any other planets. You can chalk this up either to the conditions for mob spawning being extremely rare, or for it being bad for the packdev's TPS. Take your pick. "
+		"It can also be provided with artifacts to allow it to go to certain specific planets."
 	],
 	dependencies: [
 		"3a5b48dd"
@@ -32,15 +30,9 @@
 		}]
 	}],
 	rewards: [{
-		uid: "66881a43",
+		uid: "366f8099",
 		type: "item",
-		item: "contenttweaker:osgloglas_ingot",
-		count: 16
-	},
-	{
-		uid: "6410cc46",
-		type: "item",
-		item: "mekanism:controlcircuit 1 3",
-		count: 10
+		item: "libvulpes:productgem",
+		count: 32
 	}]
 }

@@ -1,6 +1,9 @@
 {
 	x: 1.5d,
 	y: -3.5d,
+	text: [
+		"The Laser Drill helps you get many ores, especially Iridium."
+	],
 	tasks: [{
 		uid: "c5611265",
 		type: "item",
@@ -16,15 +19,8 @@
 		}]
 	}],
 	rewards: [{
-		uid: "e06c4f63",
+		uid: "dc70aa75",
 		type: "item",
-		item: "contenttweaker:osgloglas_ingot",
-		count: 16
-	},
-	{
-		uid: "e38a1bba",
-		type: "item",
-		item: "thermalfoundation:material 1 135",
-		count: 16
+		item: "industrialforegoing:laser_lens"
 	}]
 }

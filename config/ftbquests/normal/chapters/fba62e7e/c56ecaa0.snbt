@@ -18,11 +18,5 @@
 				tier: 1
 			}
 		}]
-	}],
-	rewards: [{
-		uid: "80109503",
-		type: "item",
-		item: "thermalfoundation:material 1 167",
-		count: 32
 	}]
 }

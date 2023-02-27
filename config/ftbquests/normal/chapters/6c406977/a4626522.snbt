@@ -12,9 +12,9 @@
 		}]
 	}],
 	rewards: [{
-		uid: "b49b8118",
+		uid: "6c1c5dc0",
 		type: "item",
-		item: "minecraft:stick",
-		count: 32
+		item: "storagedrawers:upgrade_template",
+		count: 4
 	}]
 }

@@ -16,9 +16,9 @@
 		}]
 	}],
 	rewards: [{
-		uid: "7c28fe90",
+		uid: "e34ebee8",
 		type: "item",
-		item: "extendedcrafting:material 1 32",
+		item: "enderio:item_endergy_conduit 1 11",
 		count: 16
 	}]
 }

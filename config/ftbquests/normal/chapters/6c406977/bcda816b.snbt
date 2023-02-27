@@ -9,9 +9,8 @@
 		}]
 	}],
 	rewards: [{
-		uid: "359e6e93",
+		uid: "e6d251de",
 		type: "item",
-		item: "minecraft:glowstone_dust",
-		count: 64
+		item: "rftools:storage_module 1 2"
 	}]
 }

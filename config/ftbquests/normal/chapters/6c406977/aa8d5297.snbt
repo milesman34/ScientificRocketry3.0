@@ -10,11 +10,5 @@
 		items: [{
 			item: "ironchest:iron_chest 1 1"
 		}]
-	}],
-	rewards: [{
-		uid: "369d8482",
-		type: "item",
-		item: "minecraft:gold_ingot",
-		count: 16
 	}]
 }

@@ -1,5 +1,5 @@
 {
-	title: "XNet Controller",
+	title: "XNet",
 	x: 1.5d,
 	y: -7.0d,
 	text: [
@@ -13,9 +13,16 @@
 		}]
 	}],
 	rewards: [{
-		uid: "6cf15d30",
+		uid: "469780c8",
 		type: "item",
-		item: "enderio:item_alloy_ingot 1 1",
-		count: 16
+		item: {
+			id: "xnet:connector",
+			tag: {
+				display: {
+					LocName: "tile.xnet.connector_blue.name"
+				}
+			}
+		},
+		count: 4
 	}]
 }

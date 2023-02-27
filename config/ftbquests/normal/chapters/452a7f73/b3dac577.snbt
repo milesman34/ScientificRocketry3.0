@@ -16,9 +16,9 @@
 		}]
 	}],
 	rewards: [{
-		uid: "6b649ed6",
+		uid: "8b4e3662",
 		type: "item",
-		item: "thermalfoundation:material 1 166",
-		count: 16
+		item: "advancedrocketry:ic",
+		count: 4
 	}]
 }

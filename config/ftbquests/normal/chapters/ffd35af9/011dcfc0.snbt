@@ -9,9 +9,9 @@
 		}]
 	}],
 	rewards: [{
-		uid: "577ef08e",
+		uid: "1781e9fc",
 		type: "item",
-		item: "actuallyadditions:item_crystal 1 4",
-		count: 12
+		item: "cyclicmagic:magnet_anti_block",
+		count: 4
 	}]
 }

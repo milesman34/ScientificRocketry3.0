@@ -15,15 +15,9 @@
 		}]
 	}],
 	rewards: [{
-		uid: "7aadbcf6",
+		uid: "1e0f411e",
 		type: "item",
-		item: "extendedcrafting:material 1 11",
-		count: 16
-	},
-	{
-		uid: "6aa297e6",
-		type: "item",
-		item: "contenttweaker:adamantium_ingot",
-		count: 16
+		item: "mekanismgenerators:reactor 1 1",
+		count: 8
 	}]
 }

@@ -62,23 +62,5 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
-	}],
-	rewards: [{
-		uid: "8b62e497",
-		type: "item",
-		item: "actuallyadditions:item_crystal 1 1",
-		count: 8
-	},
-	{
-		uid: "6ff3be35",
-		type: "item",
-		item: "enderio:item_alloy_ingot 1 5",
-		count: 8
-	},
-	{
-		uid: "08418008",
-		type: "item",
-		item: "enderio:item_alloy_endergy_ingot 1 5",
-		count: 8
 	}]
 }

@@ -57,11 +57,5 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
-	}],
-	rewards: [{
-		uid: "f86700bc",
-		type: "item",
-		item: "minecraft:dye 1 4",
-		count: 32
 	}]
 }

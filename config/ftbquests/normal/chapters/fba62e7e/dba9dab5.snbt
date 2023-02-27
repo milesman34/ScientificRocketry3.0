@@ -13,9 +13,9 @@
 		}]
 	}],
 	rewards: [{
-		uid: "45533078",
+		uid: "b4cb0379",
 		type: "item",
-		item: "nuclearcraft:alloy 1 10",
-		count: 16
+		item: "nuclearcraft:fission_casing",
+		count: 8
 	}]
 }

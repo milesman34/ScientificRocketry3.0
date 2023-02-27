@@ -16,9 +16,9 @@
 		}]
 	}],
 	rewards: [{
-		uid: "ddc869d7",
+		uid: "bc9434f7",
 		type: "item",
-		item: "thermalfoundation:material 1 162",
-		count: 16
+		item: "contenttweaker:hardened_photovoltaic_cell",
+		count: 8
 	}]
 }

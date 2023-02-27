@@ -17,7 +17,7 @@
 		}]
 	}],
 	rewards: [{
-		uid: "a420e401",
+		uid: "e563e007",
 		type: "item",
 		item: "mekanism:controlcircuit",
 		count: 16

@@ -12,9 +12,9 @@
 		}]
 	}],
 	rewards: [{
-		uid: "84e41647",
+		uid: "3e81a791",
 		type: "item",
-		item: "minecraft:quartz",
-		count: 24
+		item: "storagedrawers:controller",
+		count: 2
 	}]
 }

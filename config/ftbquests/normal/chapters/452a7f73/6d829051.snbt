@@ -5,9 +5,7 @@
 	y: 8.0d,
 	shape: "square",
 	text: [
-		"The Internet Realm requires a Salt Singularity as an artifact. It is formed from the salt of every internet argument and contains Opinionium Ore.",
-		"",
-		"The planet is very bright, so it is recommended to go there at night."
+		"The Internet Realm requires a Salt Singularity as an artifact. It is formed from the salt of every internet argument and contains Opinionium Ore."
 	],
 	dependencies: [
 		"17b0bbdd"
@@ -18,15 +16,8 @@
 		dim: 103
 	}],
 	rewards: [{
-		uid: "39df344d",
+		uid: "75ae1697",
 		type: "item",
-		item: {
-			id: "mekanism:salt",
-			tag: {
-				display: {
-					Name: "CreativeRealms"
-				}
-			}
-		}
+		item: "mekanism:salt"
 	}]
 }

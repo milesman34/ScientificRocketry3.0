@@ -11,9 +11,9 @@
 		count: 10L
 	}],
 	rewards: [{
-		uid: "549f2a1c",
+		uid: "02c59dcb",
 		type: "item",
-		item: "thermalfoundation:material 1 132",
-		count: 16
+		item: "bhc:red_heart",
+		count: 4
 	}]
 }

@@ -20,12 +20,5 @@
 		items: [{
 			item: "environmentaltech:solar_cont_6"
 		}]
-	}],
-	rewards: [{
-		uid: "28dea8e8",
-		type: "item",
-		auto: "disabled",
-		item: "deepmoblearning:glitch_infused_ingot",
-		count: 16
 	}]
 }

@@ -20,11 +20,5 @@
 		items: [{
 			item: "environmentaltech:solar_cont_4"
 		}]
-	}],
-	rewards: [{
-		uid: "fde0bbec",
-		type: "item",
-		item: "thermalfoundation:material 1 135",
-		count: 16
 	}]
 }

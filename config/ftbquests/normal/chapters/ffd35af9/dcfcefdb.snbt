@@ -14,9 +14,9 @@
 		count: 10L
 	}],
 	rewards: [{
-		uid: "72c1966c",
+		uid: "b3a2dd13",
 		type: "item",
-		item: "contenttweaker:osgloglas_ingot",
-		count: 16
+		item: "bhc:green_heart",
+		count: 4
 	}]
 }

@@ -29,11 +29,5 @@
 			}
 		}],
 		ignore_nbt: 1b
-	}],
-	rewards: [{
-		uid: "24a09bfb",
-		type: "item",
-		item: "thermalfoundation:material 1 161",
-		count: 12
 	}]
 }

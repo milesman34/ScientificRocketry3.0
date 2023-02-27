@@ -10,11 +10,5 @@
 		items: [{
 			item: "actuallyadditions:block_giant_chest_medium"
 		}]
-	}],
-	rewards: [{
-		uid: "820a5e98",
-		type: "item",
-		item: "thermalfoundation:material 1 160",
-		count: 12
 	}]
 }

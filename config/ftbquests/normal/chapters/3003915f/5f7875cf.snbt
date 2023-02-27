@@ -3,7 +3,7 @@
 	y: -1.5d,
 	description: "Uses 800 RF/t",
 	text: [
-		""
+		"Void Ore Miners will be crucial for getting enough resources for the endgame."
 	],
 	dependencies: [
 		"46073102"
@@ -14,11 +14,5 @@
 		items: [{
 			item: "environmentaltech:void_ore_miner_cont_1"
 		}]
-	}],
-	rewards: [{
-		uid: "8d770541",
-		type: "item",
-		item: "libvulpes:productingot 1 7",
-		count: 16
 	}]
 }

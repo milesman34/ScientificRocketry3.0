@@ -1,0 +1,32 @@
+{
+	title: "Empowerer",
+	x: -3.5d,
+	y: 8.0d,
+	text: [
+		"The Empowerer is a machine that can be used to empower crystals and other items. It requires good power generation to use, and can be automated in various ways."
+	],
+	dependencies: [
+		"d1f678e3"
+	],
+	tasks: [{
+		uid: "033eb842",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_empowerer"
+		}]
+	},
+	{
+		uid: "8da91d10",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_display_stand"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "3e30fe86",
+		type: "item",
+		item: "actuallyadditions:item_misc 1 8",
+		count: 8
+	}]
+}

@@ -16,9 +16,9 @@
 		}]
 	}],
 	rewards: [{
-		uid: "fa749cac",
+		uid: "e27bed76",
 		type: "item",
-		item: "avaritia:resource 1 4",
+		item: "moreplates:neutronium_plate",
 		count: 16
 	}]
 }

@@ -9,8 +9,9 @@
 		}]
 	}],
 	rewards: [{
-		uid: "0b01dffc",
+		uid: "e034a7d6",
 		type: "item",
-		item: "deepmoblearning:data_model_blank"
+		item: "deepmoblearning:polymer_clay",
+		count: 64
 	}]
 }

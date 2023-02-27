@@ -1,0 +1,23 @@
+{
+	x: -2.5d,
+	y: 11.0d,
+	text: [
+		"Mana Dust is an important item used for crafting, which will be needed in large amounts later on."
+	],
+	dependencies: [
+		"b9a23f00"
+	],
+	tasks: [{
+		uid: "e739c348",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 1028"
+		}]
+	}],
+	rewards: [{
+		uid: "fe270fe2",
+		type: "item",
+		item: "thermalfoundation:material 1 1028",
+		count: 16
+	}]
+}

@@ -9,9 +9,9 @@
 		}]
 	}],
 	rewards: [{
-		uid: "871378a7",
+		uid: "b92acd67",
 		type: "item",
-		item: "actuallyadditions:item_misc 1 5",
+		item: "minecraft:wheat_seeds",
 		count: 16
 	}]
 }

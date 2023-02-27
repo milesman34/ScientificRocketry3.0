@@ -12,9 +12,9 @@
 		}]
 	}],
 	rewards: [{
-		uid: "e170c327",
+		uid: "a48a952a",
 		type: "item",
-		item: "environmentaltech:kyronite_crystal",
-		count: 16
+		item: "environmentaltech:solar_cell_kyronite",
+		count: 4
 	}]
 }

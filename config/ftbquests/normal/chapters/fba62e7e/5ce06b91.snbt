@@ -16,9 +16,9 @@
 		}]
 	}],
 	rewards: [{
-		uid: "4057a160",
+		uid: "918a83d5",
 		type: "item",
-		item: "thermalfoundation:material 1 136",
+		item: "enderio:item_endergy_conduit 1 8",
 		count: 16
 	}]
 }

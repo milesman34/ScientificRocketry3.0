@@ -9,9 +9,8 @@
 		}]
 	}],
 	rewards: [{
-		uid: "8192a2b7",
+		uid: "3b1fceb5",
 		type: "item",
-		item: "minecraft:iron_ingot",
-		count: 16
+		item: "ironchest:iron_chest"
 	}]
 }

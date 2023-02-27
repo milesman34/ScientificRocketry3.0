@@ -10,11 +10,5 @@
 		items: [{
 			item: "aeadditions:storage.component 1 6"
 		}]
-	}],
-	rewards: [{
-		uid: "034d9540",
-		type: "item",
-		item: "thermalfoundation:material 1 136",
-		count: 16
 	}]
 }

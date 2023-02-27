@@ -13,11 +13,5 @@
 		items: [{
 			item: "advancedrocketry:cuttingmachine"
 		}]
-	}],
-	rewards: [{
-		uid: "88950635",
-		type: "item",
-		item: "enderio:item_alloy_ingot 1 2",
-		count: 16
 	}]
 }

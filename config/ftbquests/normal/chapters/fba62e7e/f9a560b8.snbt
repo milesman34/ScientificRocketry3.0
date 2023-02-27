@@ -16,9 +16,9 @@
 		}]
 	}],
 	rewards: [{
-		uid: "f2c663bd",
+		uid: "ab89b52f",
 		type: "item",
-		item: "contenttweaker:osgloglas_ingot",
+		item: "enderio:item_endergy_conduit 1 7",
 		count: 16
 	}]
 }

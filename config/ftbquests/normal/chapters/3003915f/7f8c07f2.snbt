@@ -14,11 +14,5 @@
 		items: [{
 			item: "environmentaltech:void_ore_miner_cont_6"
 		}]
-	}],
-	rewards: [{
-		uid: "51f3b97d",
-		type: "item",
-		item: "contenttweaker:adamantium_ingot",
-		count: 16
 	}]
 }

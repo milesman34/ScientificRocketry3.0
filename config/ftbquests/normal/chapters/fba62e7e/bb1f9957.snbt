@@ -14,9 +14,9 @@
 		}]
 	}],
 	rewards: [{
-		uid: "2752322c",
+		uid: "32bc1696",
 		type: "item",
-		item: "thermalfoundation:material 1 167",
-		count: 32
+		item: "nuclearcraft:turbine_casing",
+		count: 8
 	}]
 }

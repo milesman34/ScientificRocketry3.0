@@ -15,11 +15,5 @@
 		items: [{
 			item: "advancedrocketry:monitoringstation"
 		}]
-	}],
-	rewards: [{
-		uid: "6a619db2",
-		type: "item",
-		item: "thermalfoundation:material 1 166",
-		count: 24
 	}]
 }

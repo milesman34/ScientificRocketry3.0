@@ -18,11 +18,5 @@
 				tier: 2
 			}
 		}]
-	}],
-	rewards: [{
-		uid: "69764076",
-		type: "item",
-		item: "contenttweaker:enriched_signalum_ingot",
-		count: 32
 	}]
 }

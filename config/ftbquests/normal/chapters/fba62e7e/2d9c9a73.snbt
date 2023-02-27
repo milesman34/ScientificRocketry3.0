@@ -16,9 +16,9 @@
 		}]
 	}],
 	rewards: [{
-		uid: "07183bd5",
+		uid: "77157c61",
 		type: "item",
-		item: "thermalfoundation:material 1 165",
-		count: 16
+		item: "contenttweaker:signalum_photovoltaic_cell",
+		count: 8
 	}]
 }

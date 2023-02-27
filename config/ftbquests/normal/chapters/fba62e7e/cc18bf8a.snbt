@@ -14,9 +14,9 @@
 		}]
 	}],
 	rewards: [{
-		uid: "907d0a44",
+		uid: "e9246491",
 		type: "item",
-		item: "enderio:item_alloy_ingot",
+		item: "advgenerators:iron_frame",
 		count: 16
 	}]
 }

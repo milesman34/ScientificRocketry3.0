@@ -16,11 +16,5 @@
 			}
 		}],
 		ignore_nbt: 1b
-	}],
-	rewards: [{
-		uid: "14b0b0c2",
-		type: "item",
-		item: "enderio:item_alloy_ingot 1 4",
-		count: 16
 	}]
 }

@@ -13,9 +13,9 @@
 		}]
 	}],
 	rewards: [{
-		uid: "a6c6d9c8",
+		uid: "942e9a3b",
 		type: "item",
-		item: "thermalfoundation:material 1 131",
-		count: 16
+		item: "solarflux:mirror",
+		count: 8
 	}]
 }

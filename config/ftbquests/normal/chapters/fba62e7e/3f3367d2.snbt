@@ -16,9 +16,9 @@
 		}]
 	}],
 	rewards: [{
-		uid: "e8b1150b",
+		uid: "9505b7b4",
 		type: "item",
-		item: "contenttweaker:adamantium_ingot",
-		count: 16
+		item: "contenttweaker:adamantium_photovoltaic_cell",
+		count: 8
 	}]
 }

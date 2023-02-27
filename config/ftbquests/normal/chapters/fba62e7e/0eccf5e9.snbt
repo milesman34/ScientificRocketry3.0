@@ -12,9 +12,9 @@
 		}]
 	}],
 	rewards: [{
-		uid: "a2962bf0",
+		uid: "32eb9591",
 		type: "item",
-		item: "environmentaltech:litherite_crystal",
-		count: 16
+		item: "environmentaltech:solar_cell_litherite",
+		count: 4
 	}]
 }

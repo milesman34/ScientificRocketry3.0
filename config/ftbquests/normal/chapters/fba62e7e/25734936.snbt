@@ -12,9 +12,9 @@
 		}]
 	}],
 	rewards: [{
-		uid: "a29cdc4b",
+		uid: "9a499e6a",
 		type: "item",
-		item: "environmentaltech:ionite_crystal",
-		count: 16
+		item: "environmentaltech:solar_cell_ionite",
+		count: 4
 	}]
 }

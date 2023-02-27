@@ -17,9 +17,9 @@
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "317d52fe",
+		uid: "98224d8a",
 		type: "item",
-		item: "enderio:item_alloy_endergy_ingot 1 5",
-		count: 12
+		item: "enderio:item_basic_capacitor 1 1",
+		count: 4
 	}]
 }

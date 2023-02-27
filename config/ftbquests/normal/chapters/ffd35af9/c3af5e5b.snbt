@@ -20,11 +20,5 @@
 			}
 		}],
 		ignore_nbt: 1b
-	}],
-	rewards: [{
-		uid: "e7342ffd",
-		type: "item",
-		item: "actuallyadditions:item_crystal_empowered",
-		count: 16
 	}]
 }

@@ -17,11 +17,5 @@
 			item: "advancedrocketry:stationmarker"
 		}],
 		count: 2L
-	}],
-	rewards: [{
-		uid: "bb9756c1",
-		type: "item",
-		item: "libvulpes:productingot 1 7",
-		count: 16
 	}]
 }

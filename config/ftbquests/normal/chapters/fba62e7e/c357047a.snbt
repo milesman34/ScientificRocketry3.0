@@ -16,9 +16,9 @@
 		}]
 	}],
 	rewards: [{
-		uid: "11cc7766",
+		uid: "28449830",
 		type: "item",
-		item: "avaritia:resource 1 6",
+		item: "moreplates:infinity_plate",
 		count: 16
 	}]
 }

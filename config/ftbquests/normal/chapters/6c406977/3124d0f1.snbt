@@ -9,9 +9,9 @@
 		}]
 	}],
 	rewards: [{
-		uid: "bda49612",
+		uid: "8714fe24",
 		type: "item",
-		item: "enderio:item_alloy_ingot 1 2",
-		count: 4
+		item: "ironchest:iron_chest",
+		count: 2
 	}]
 }

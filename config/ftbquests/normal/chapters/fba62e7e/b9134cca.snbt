@@ -1,6 +1,9 @@
 {
 	x: -4.0d,
 	y: 7.0d,
+	text: [
+		"The Powercell is your first method of wireless power transfer."
+	],
 	tasks: [{
 		uid: "995b5e77",
 		type: "item",
@@ -9,9 +12,9 @@
 		}]
 	}],
 	rewards: [{
-		uid: "c752e73a",
+		uid: "16702f94",
 		type: "item",
-		item: "enderio:item_alloy_ingot 1 2",
-		count: 4
+		item: "rftools:powercell_card",
+		count: 2
 	}]
 }

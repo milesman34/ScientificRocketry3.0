@@ -51,11 +51,5 @@
 		items: [{
 			item: "advancedrocketry:suitworkstation"
 		}]
-	}],
-	rewards: [{
-		uid: "5b9521da",
-		type: "item",
-		item: "thermalfoundation:material 1 160",
-		count: 32
 	}]
 }

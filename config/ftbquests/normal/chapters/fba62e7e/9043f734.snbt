@@ -16,9 +16,9 @@
 		}]
 	}],
 	rewards: [{
-		uid: "9ae288d7",
+		uid: "b3fb04e1",
 		type: "item",
-		item: "thermalfoundation:material 1 135",
-		count: 16
+		item: "contenttweaker:iridium_photovoltaic_cell",
+		count: 8
 	}]
 }

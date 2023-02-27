@@ -13,11 +13,5 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
-	}],
-	rewards: [{
-		uid: "d46a8e19",
-		type: "item",
-		item: "libvulpes:productingot 1 7",
-		count: 16
 	}]
 }

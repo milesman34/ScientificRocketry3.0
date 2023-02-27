@@ -14,9 +14,9 @@
 		}]
 	}],
 	rewards: [{
-		uid: "6166dab4",
+		uid: "31e73bef",
 		type: "item",
-		item: "thermalfoundation:material 1 166",
-		count: 16
+		item: "integrateddynamics:cable",
+		count: 32
 	}]
 }

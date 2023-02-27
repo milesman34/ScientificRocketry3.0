@@ -13,11 +13,5 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
-	}],
-	rewards: [{
-		uid: "446b912b",
-		type: "item",
-		item: "contenttweaker:osmiridium_ingot",
-		count: 16
 	}]
 }

@@ -15,11 +15,5 @@
 		items: [{
 			item: "advancedrocketry:oxygencharger"
 		}]
-	}],
-	rewards: [{
-		uid: "d98f8bfb",
-		type: "item",
-		item: "thermalfoundation:material 1 160",
-		count: 16
 	}]
 }

@@ -9,9 +9,9 @@
 		}]
 	}],
 	rewards: [{
-		uid: "b145f2f2",
+		uid: "b5700070",
 		type: "item",
-		item: "enderio:item_alloy_ingot 1 6",
-		count: 16
+		item: "appliedenergistics2:material 1 36",
+		count: 4
 	}]
 }

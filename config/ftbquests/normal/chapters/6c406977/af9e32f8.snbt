@@ -10,11 +10,5 @@
 		items: [{
 			item: "appliedenergistics2:material 1 56"
 		}]
-	}],
-	rewards: [{
-		uid: "931b27d1",
-		type: "item",
-		item: "enderio:item_alloy_endergy_ingot 1 5",
-		count: 16
 	}]
 }

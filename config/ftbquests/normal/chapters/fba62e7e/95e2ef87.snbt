@@ -10,9 +10,9 @@
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "6107aa90",
+		uid: "3b16d2bb",
 		type: "item",
-		item: "minecraft:gold_ingot",
+		item: "mekanism:enrichedalloy",
 		count: 8
 	}]
 }

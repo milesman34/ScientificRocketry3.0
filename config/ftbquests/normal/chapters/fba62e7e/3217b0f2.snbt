@@ -16,9 +16,9 @@
 		}]
 	}],
 	rewards: [{
-		uid: "5d3b557b",
+		uid: "3e83c81b",
 		type: "item",
-		item: "contenttweaker:osgloglas_ingot",
-		count: 16
+		item: "contenttweaker:osgloglas_photovoltaic_cell",
+		count: 8
 	}]
 }

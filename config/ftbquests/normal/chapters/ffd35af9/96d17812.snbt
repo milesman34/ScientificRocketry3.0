@@ -9,9 +9,9 @@
 		}]
 	}],
 	rewards: [{
-		uid: "90144a2a",
+		uid: "7f504b2f",
 		type: "item",
-		item: "thermalfoundation:material 1 165",
-		count: 16
+		item: "torchmaster:feral_flare_lantern",
+		count: 4
 	}]
 }

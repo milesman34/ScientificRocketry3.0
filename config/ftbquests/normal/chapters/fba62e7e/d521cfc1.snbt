@@ -13,9 +13,9 @@
 		}]
 	}],
 	rewards: [{
-		uid: "f2f7d3aa",
+		uid: "4899b55d",
 		type: "item",
-		item: "thermalfoundation:material 1 165",
+		item: "advgenerators:iron_frame",
 		count: 16
 	}]
 }

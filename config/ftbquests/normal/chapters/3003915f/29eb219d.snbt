@@ -15,11 +15,5 @@
 		items: [{
 			item: "environmentaltech:void_ore_miner_cont_3"
 		}]
-	}],
-	rewards: [{
-		uid: "004824c5",
-		type: "item",
-		item: "contenttweaker:cobalt_ingot",
-		count: 16
 	}]
 }

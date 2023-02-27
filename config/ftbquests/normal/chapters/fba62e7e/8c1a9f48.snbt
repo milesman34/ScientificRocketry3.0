@@ -3,7 +3,7 @@
 	x: -4.0d,
 	y: 4.0d,
 	text: [
-		""
+		"While you may want to use fission and a turbine for power, it is also important for byproducts such as isotopes of Plutonium and Californium."
 	],
 	tasks: [{
 		uid: "19fcdbe5",
@@ -13,9 +13,9 @@
 		}]
 	}],
 	rewards: [{
-		uid: "41acf9cf",
+		uid: "8e9317a7",
 		type: "item",
-		item: "nuclearcraft:part 1 1",
-		count: 16
+		item: "nuclearcraft:fission_casing",
+		count: 8
 	}]
 }

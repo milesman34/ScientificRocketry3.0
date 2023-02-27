@@ -9,9 +9,9 @@
 		}]
 	}],
 	rewards: [{
-		uid: "63d30d33",
+		uid: "26f9d41a",
 		type: "item",
-		item: "minecraft:ender_pearl",
-		count: 8
+		item: "enderio:item_dark_steel_upgrade",
+		count: 4
 	}]
 }

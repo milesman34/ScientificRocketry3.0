@@ -15,11 +15,5 @@
 		items: [{
 			item: "advancedrocketry:fuelingstation"
 		}]
-	}],
-	rewards: [{
-		uid: "f2c28113",
-		type: "item",
-		item: "thermalfoundation:storage_alloy 1 2",
-		count: 4
 	}]
 }

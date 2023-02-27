@@ -17,9 +17,9 @@
 		count: 6L
 	}],
 	rewards: [{
-		uid: "a68778b2",
+		uid: "62f7b16a",
 		type: "item",
-		item: "thermalfoundation:material 1 160",
-		count: 24
+		item: "advancedrocketry:fueltank",
+		count: 2
 	}]
 }

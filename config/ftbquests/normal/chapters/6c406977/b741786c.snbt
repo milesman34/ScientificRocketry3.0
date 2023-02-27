@@ -9,11 +9,5 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
-	}],
-	rewards: [{
-		uid: "b8f2064e",
-		type: "item",
-		item: "extendedcrafting:material 1 36",
-		count: 16
 	}]
 }

@@ -12,9 +12,8 @@
 		}]
 	}],
 	rewards: [{
-		uid: "3fcc261a",
+		uid: "74185f9a",
 		type: "item",
-		item: "thermalfoundation:material 1 166",
-		count: 16
+		item: "appliedenergistics2:interface"
 	}]
 }

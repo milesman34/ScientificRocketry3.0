@@ -10,11 +10,5 @@
 		items: [{
 			item: "ironchest:iron_chest 1 2"
 		}]
-	}],
-	rewards: [{
-		uid: "b04a52e6",
-		type: "item",
-		item: "minecraft:diamond",
-		count: 16
 	}]
 }

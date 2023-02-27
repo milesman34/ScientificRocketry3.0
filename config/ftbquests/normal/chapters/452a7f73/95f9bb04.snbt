@@ -29,11 +29,5 @@
 		items: [{
 			item: "advancedrocketry:seat"
 		}]
-	}],
-	rewards: [{
-		uid: "28c93d22",
-		type: "item",
-		item: "nuclearcraft:alloy 1 15",
-		count: 16
 	}]
 }

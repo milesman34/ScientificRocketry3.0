@@ -12,9 +12,9 @@
 		}]
 	}],
 	rewards: [{
-		uid: "99529f5f",
+		uid: "e5579eb7",
 		type: "item",
-		item: "redstonearsenal:material 1 32",
-		count: 16
+		item: "appliedenergistics2:material 1 52",
+		count: 8
 	}]
 }

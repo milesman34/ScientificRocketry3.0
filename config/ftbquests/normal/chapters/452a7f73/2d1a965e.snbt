@@ -13,11 +13,5 @@
 		items: [{
 			item: "advancedrocketry:precisionassemblingmachine"
 		}]
-	}],
-	rewards: [{
-		uid: "8fab82fb",
-		type: "item",
-		item: "nuclearcraft:alloy 1 2",
-		count: 16
 	}]
 }

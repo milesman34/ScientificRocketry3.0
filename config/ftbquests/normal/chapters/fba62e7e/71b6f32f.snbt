@@ -12,9 +12,9 @@
 		}]
 	}],
 	rewards: [{
-		uid: "e2d0d4b9",
+		uid: "bbe94bab",
 		type: "item",
-		item: "environmentaltech:pladium_crystal",
-		count: 16
+		item: "environmentaltech:solar_cell_pladium",
+		count: 4
 	}]
 }

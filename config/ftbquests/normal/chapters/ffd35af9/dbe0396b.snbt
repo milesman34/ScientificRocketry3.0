@@ -62,23 +62,5 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
-	}],
-	rewards: [{
-		uid: "86ae351a",
-		type: "item",
-		item: "actuallyadditions:item_crystal 1 5",
-		count: 8
-	},
-	{
-		uid: "f4b2a1f0",
-		type: "item",
-		item: "thermalfoundation:material 1 162",
-		count: 8
-	},
-	{
-		uid: "ef18d02c",
-		type: "item",
-		item: "mekanism:ingot 1 1",
-		count: 8
 	}]
 }

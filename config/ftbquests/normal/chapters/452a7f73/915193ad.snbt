@@ -14,11 +14,5 @@
 		items: [{
 			item: "advancedrocketry:rocketmotor"
 		}]
-	}],
-	rewards: [{
-		uid: "00cb0a38",
-		type: "item",
-		item: "nuclearcraft:alloy 1 10",
-		count: 8
 	}]
 }

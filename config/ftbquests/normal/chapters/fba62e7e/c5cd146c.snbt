@@ -17,9 +17,9 @@
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "8c5838db",
+		uid: "9c713e75",
 		type: "item",
-		item: "minecraft:emerald",
-		count: 8
+		item: "enderio:item_basic_capacitor 1 2",
+		count: 2
 	}]
 }

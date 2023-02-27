@@ -9,10 +9,5 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
-	}],
-	rewards: [{
-		uid: "5742b8cf",
-		type: "item",
-		item: "bhc:green_heart"
 	}]
 }

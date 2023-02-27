@@ -12,9 +12,9 @@
 		}]
 	}],
 	rewards: [{
-		uid: "597c219c",
+		uid: "eefab39e",
 		type: "item",
-		item: "environmentaltech:aethium_crystal",
-		count: 16
+		item: "environmentaltech:solar_cell_aethium",
+		count: 4
 	}]
 }

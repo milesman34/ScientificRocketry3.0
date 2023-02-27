@@ -1,6 +1,9 @@
 {
 	x: -3.0d,
 	y: 7.0d,
+	text: [
+		"The Quantum Entangloporter is stronger than the Powercell, and can also transfer items, gases, and fluids."
+	],
 	tasks: [{
 		uid: "cf7dff0a",
 		type: "item",
@@ -10,9 +13,9 @@
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "2fa45637",
+		uid: "f529e375",
 		type: "item",
-		item: "actuallyadditions:item_crystal_empowered 1 4",
-		count: 8
+		item: "enderio:item_capacitor_crystalline",
+		count: 4
 	}]
 }

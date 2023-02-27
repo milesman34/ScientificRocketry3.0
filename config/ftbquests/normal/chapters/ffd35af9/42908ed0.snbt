@@ -80,29 +80,5 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
-	}],
-	rewards: [{
-		uid: "1f7787a2",
-		type: "item",
-		item: "enderio:item_alloy_ingot 1 4",
-		count: 8
-	},
-	{
-		uid: "64c95fd0",
-		type: "item",
-		item: "enderio:item_alloy_ingot 1 5",
-		count: 8
-	},
-	{
-		uid: "387a1c38",
-		type: "item",
-		item: "enderio:item_alloy_endergy_ingot",
-		count: 8
-	},
-	{
-		uid: "7173a151",
-		type: "item",
-		item: "thermalfoundation:material 1 160",
-		count: 8
 	}]
 }

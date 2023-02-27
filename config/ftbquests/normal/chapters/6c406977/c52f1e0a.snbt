@@ -10,11 +10,5 @@
 		items: [{
 			item: "aeadditions:storage.component 1 5"
 		}]
-	}],
-	rewards: [{
-		uid: "8b93f414",
-		type: "item",
-		item: "contenttweaker:cobalt_ingot",
-		count: 16
 	}]
 }

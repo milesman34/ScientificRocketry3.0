@@ -14,9 +14,9 @@
 		count: 10L
 	}],
 	rewards: [{
-		uid: "58dcd245",
+		uid: "9efcd2b5",
 		type: "item",
-		item: "actuallyadditions:item_crystal_empowered 1 2",
-		count: 8
+		item: "bhc:yellow_heart",
+		count: 4
 	}]
 }

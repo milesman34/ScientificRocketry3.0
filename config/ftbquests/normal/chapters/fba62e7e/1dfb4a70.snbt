@@ -15,9 +15,8 @@
 		}]
 	}],
 	rewards: [{
-		uid: "ecadd784",
+		uid: "b451b53b",
 		type: "item",
-		item: "contenttweaker:tungsten_ingot",
-		count: 64
+		item: "nuclearcraft:cobblestone_generator_dense"
 	}]
 }

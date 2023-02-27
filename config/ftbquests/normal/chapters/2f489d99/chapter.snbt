@@ -1,7 +1,0 @@
-{
-	title: "Lategame Content",
-	icon: "thermalfoundation:material 1 1028",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

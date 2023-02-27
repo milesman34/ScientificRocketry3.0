@@ -13,11 +13,5 @@
 		items: [{
 			item: "advancedrocketry:lathe"
 		}]
-	}],
-	rewards: [{
-		uid: "126a7c29",
-		type: "item",
-		item: "thermalfoundation:material 1 160",
-		count: 16
 	}]
 }

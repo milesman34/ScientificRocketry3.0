@@ -17,9 +17,9 @@
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "b167ac7f",
+		uid: "ae142caf",
 		type: "item",
-		item: "thermalfoundation:material 1 160",
-		count: 16
+		item: "enderstorage:ender_storage 1 1",
+		count: 2
 	}]
 }

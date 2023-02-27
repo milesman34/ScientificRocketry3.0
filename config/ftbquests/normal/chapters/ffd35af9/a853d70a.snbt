@@ -20,11 +20,5 @@
 			}
 		}],
 		ignore_nbt: 1b
-	}],
-	rewards: [{
-		uid: "efab4553",
-		type: "item",
-		item: "actuallyadditions:item_crystal 1 2",
-		count: 10
 	}]
 }

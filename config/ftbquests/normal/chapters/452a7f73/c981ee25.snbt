@@ -5,7 +5,7 @@
 	text: [
 		"AE2 Meteors do not spawn in the Overworld. They spawn on the Moon instead.",
 		"",
-		"You can make Sky Stone yourself, but this is the other early way of getting it."
+		"You can make Sky Stone yourself, but this is another way of getting it."
 	],
 	dependencies: [
 		"cf25a854"

@@ -12,11 +12,5 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
-	}],
-	rewards: [{
-		uid: "d2a3d196",
-		type: "item",
-		item: "thermalfoundation:material 1 167",
-		count: 12
 	}]
 }

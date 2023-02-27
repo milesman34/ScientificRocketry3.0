@@ -16,9 +16,9 @@
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "ecb2787a",
+		uid: "4725140d",
 		type: "item",
-		item: "mekanism:ingot",
+		item: "contenttweaker:osgloglas_plate",
 		count: 8
 	}]
 }

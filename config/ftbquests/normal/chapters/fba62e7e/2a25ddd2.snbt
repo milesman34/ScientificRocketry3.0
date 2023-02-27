@@ -12,9 +12,9 @@
 		}]
 	}],
 	rewards: [{
-		uid: "9ac4ae8c",
+		uid: "7820a839",
 		type: "item",
-		item: "environmentaltech:erodium_crystal",
-		count: 16
+		item: "environmentaltech:solar_cell_erodium",
+		count: 4
 	}]
 }

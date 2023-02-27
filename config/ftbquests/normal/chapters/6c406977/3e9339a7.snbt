@@ -14,9 +14,9 @@
 		}]
 	}],
 	rewards: [{
-		uid: "aeaeab50",
+		uid: "dff88e85",
 		type: "item",
-		item: "enderio:item_alloy_endergy_ingot 1 5",
-		count: 16
+		item: "integrateddynamics:variable",
+		count: 32
 	}]
 }

@@ -14,11 +14,5 @@
 		items: [{
 			item: "environmentaltech:void_ore_miner_cont_5"
 		}]
-	}],
-	rewards: [{
-		uid: "b3591d5a",
-		type: "item",
-		item: "extendedcrafting:material 1 24",
-		count: 16
 	}]
 }

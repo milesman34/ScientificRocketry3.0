@@ -17,9 +17,9 @@
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "c38f2718",
+		uid: "554d7460",
 		type: "item",
-		item: "actuallyadditions:item_crystal_empowered",
-		count: 12
+		item: "enderstorage:ender_storage",
+		count: 2
 	}]
 }

@@ -14,9 +14,9 @@
 		count: 16L
 	}],
 	rewards: [{
-		uid: "978df143",
+		uid: "abebf3be",
 		type: "item",
-		item: "enderio:item_alloy_ingot 1 2",
-		count: 12
+		item: "nuclearcraft:alloy 1 10",
+		count: 16
 	}]
 }

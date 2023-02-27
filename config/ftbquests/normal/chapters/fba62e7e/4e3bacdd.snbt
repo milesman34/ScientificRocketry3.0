@@ -13,9 +13,9 @@
 		}]
 	}],
 	rewards: [{
-		uid: "5ec3287c",
+		uid: "fe010ef6",
 		type: "item",
-		item: "enderio:item_alloy_ingot 1 4",
+		item: "enderio:item_power_conduit",
 		count: 16
 	}]
 }

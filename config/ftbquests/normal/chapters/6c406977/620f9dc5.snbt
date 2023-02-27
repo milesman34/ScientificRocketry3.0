@@ -20,9 +20,14 @@
 		}]
 	}],
 	rewards: [{
-		uid: "f03727b0",
+		uid: "17b82f22",
 		type: "item",
-		item: "minecraft:chest",
-		count: 4
+		item: {
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "oak"
+			}
+		},
+		count: 2
 	}]
 }

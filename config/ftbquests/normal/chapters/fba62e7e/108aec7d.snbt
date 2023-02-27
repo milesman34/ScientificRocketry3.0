@@ -1,7 +1,7 @@
 {
 	title: "Compression Dynamo",
-	x: -4.0d,
-	y: -1.0d,
+	x: -3.0d,
+	y: 2.0d,
 	text: [
 		""
 	],
@@ -18,11 +18,5 @@
 				Level: 0b
 			}
 		}]
-	}],
-	rewards: [{
-		uid: "73f2e896",
-		type: "item",
-		item: "thermalfoundation:material 1 129",
-		count: 12
 	}]
 }
