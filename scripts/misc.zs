@@ -149,7 +149,7 @@ recipes.addShaped(<danknull:danknull_dock>, [
 // Infinity booster card
 recipes.remove(<ae2wtlib:infinity_booster_card>);
 
-mods.extendedcrafting.TableCrafting.addShaped(0, <ae2wtlib:infinity_booster_card>, [
+mods.extendedcrafting.TableCrafting.addShaped(0, <appliedenergistics2:material:59>, [
 	[<extendedcrafting:material:11>, <ore:plateEnhancedEnder>, <aeadditions:storage.component:2>, <ore:plateEnhancedEnder>, <extendedcrafting:material:11>], 
 	[<threng:material:14>, <threng:material:4>, <appliedenergistics2:material:47>, <threng:material:4>, <threng:material:14>], 
 	[<appliedenergistics2:material:48>, <appliedenergistics2:material:47>, <appliedenergistics2:condenser>, <appliedenergistics2:material:47>, <appliedenergistics2:material:48>], 

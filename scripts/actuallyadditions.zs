@@ -386,3 +386,6 @@ recipes.addShaped(<actuallyadditions:block_greenhouse_glass> * 4, [
 	[<ore:treeSapling>, <actuallyadditions:item_crystal_empowered:1>, <ore:treeSapling>], 
 	[<thermalfoundation:glass_alloy:6>, <ore:treeSapling>, <thermalfoundation:glass_alloy:6>]
 ]);
+
+// Remove crafting table on a stick
+recipes.remove(<actuallyadditions:item_crafter_on_a_stick>);

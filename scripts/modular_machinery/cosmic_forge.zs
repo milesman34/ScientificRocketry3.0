@@ -171,7 +171,7 @@ mods.modularmachinery.RecipeBuilder.newBuilder(m + "_advanced_ender", m, 1)
 
 // Infinite photovoltaic cell
 mods.modularmachinery.RecipeBuilder.newBuilder(m + "_infinite_photovoltaic", m, 400)
-    .addEnergyPerTickInput(10000000)
+    .addEnergyPerTickInput(100000000)
     .addItemOutput(<contenttweaker:infinite_photovoltaic_cell>)
     .addItemInput(<contenttweaker:neutronium_photovoltaic_cell> * 8)
     .addItemInput(<moreplates:infinity_plate> * 16)

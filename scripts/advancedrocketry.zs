@@ -437,7 +437,7 @@ recipes.remove(<advancedrocketry:terraformer>);
 
 mods.extendedcrafting.TableCrafting.addShaped(0, <advancedrocketry:terraformer>, [
 	[<thermalfoundation:glass:8>, <extendedcrafting:material:18>, <mekanism:machineblock2:14>, <extendedcrafting:material:18>, <thermalfoundation:glass:8>], 
-	[<mekanism:gastank>.withTag({tier: 3}), <ore:shardIridium>, <mekanism:machineblock2:13>, <ore:shardIridium>, <mekanism:gastank>.withTag({tier: 3})], 
+	[<mekanism:gastank>.withTag({tier: 3}) | <mekanism:gastank>.withTag({tier: 3, mekData: {security: 0}}), <ore:shardIridium>, <mekanism:machineblock2:13>, <ore:shardIridium>, <mekanism:gastank>.withTag({tier: 3}) | <mekanism:gastank>.withTag({tier: 3, mekData: {security: 0}})], 
 	[<enderutilities:enderpart:17>, <advancedrocketry:ic:5>, <rftools:matter_booster>, <advancedrocketry:ic:3>, <enderutilities:enderpart:17>], 
 	[<advancedrocketry:ic:5>, <libvulpes:battery:1>, <advancedrocketry:warpcore>, <libvulpes:battery:1>, <advancedrocketry:ic:3>], 
 	[<contenttweaker:osmiridium_machine_casing>, <contenttweaker:osmiridium_machine_casing>, <mekanism:basicblock2:3>.withTag({tier: 3}), <contenttweaker:osmiridium_machine_casing>, <contenttweaker:osmiridium_machine_casing>]

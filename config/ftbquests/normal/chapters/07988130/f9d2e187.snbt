@@ -1,0 +1,17 @@
+{
+	x: -4.5d,
+	y: 3.5d,
+	text: [
+		"This item lets you access your ME system from anywhere when used in a Wireless Crafting Terminal."
+	],
+	dependencies: [
+		"e18c4eea"
+	],
+	tasks: [{
+		uid: "4f5ef9a7",
+		type: "item",
+		items: [{
+			item: "ae2wtlib:infinity_booster_card"
+		}]
+	}]
+}

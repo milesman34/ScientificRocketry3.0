@@ -3,7 +3,8 @@
 	x: -1.5d,
 	y: 11.0d,
 	text: [
-		"Once you have crafted AE2 Inscribers, Mana Dust, and Thermoconducting Alloy, you will be able to get into Advanced Rocketry."
+		"Once you have crafted AE2 Inscribers, Mana Dust, and Thermoconducting Alloy, you will be able to get into Advanced Rocketry. ",
+		"This allows you to begin the Space questline and later on the Mid-Lategame questline."
 	],
 	dependencies: [
 		"19d654d6",

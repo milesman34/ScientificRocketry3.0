@@ -22,9 +22,9 @@
   "Dictionary Types": [
     "FOREST",
     "HOT",
+    "RARE",
     "WET",
-    "JUNGLE",
-    "RARE"
+    "JUNGLE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

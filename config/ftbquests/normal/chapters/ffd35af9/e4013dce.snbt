@@ -11,6 +11,9 @@
 			id: "redstonerepository:tool.sword_gelid",
 			tag: {
 				Energy: 0
+			},
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
 			}
 		}],
 		ignore_damage: true,

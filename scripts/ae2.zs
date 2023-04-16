@@ -651,15 +651,6 @@ recipes.addShaped(<extracpus:crafting_storage_16384k>, [
 	[<ore:ingotUltimate>, <environmentaltech:structure_frame_6>, <ore:ingotUltimate>]
 ]);
 
-// Get rid of pure crystal recipes in enrichment chamber
-mods.mekanism.enrichment.removeRecipe(<appliedenergistics2:material:2>);
-mods.mekanism.enrichment.removeRecipe(<appliedenergistics2:material:0>);
-mods.mekanism.enrichment.removeRecipe(<appliedenergistics2:crystal_seed:0>);
-mods.mekanism.enrichment.removeRecipe(<appliedenergistics2:crystal_seed:600>);
-mods.mekanism.enrichment.removeRecipe(<appliedenergistics2:material:7>);
-mods.mekanism.enrichment.removeRecipe(<appliedenergistics2:material:8>);
-mods.mekanism.enrichment.removeRecipe(<appliedenergistics2:crystal_seed:1200>);
-
 // Disable grindstone
 recipes.remove(<appliedenergistics2:grindstone>);
 recipes.remove(<appliedenergistics2:crank>);

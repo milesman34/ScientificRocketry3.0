@@ -22,26 +22,6 @@
 			}
 		},
 
-		"rocto_aethium": {
-			"distribution": "uniform",
-			"generator": {
-				"block": "environmentaltech:aethium",
-				"material": "minecraft:stone",
-				"cluster-size": 6
-			},
-			"cluster-count": 1,
-			"min-height": 1,
-			"max-height": 32,
-			"retrogen": false,
-			"biome": "all",
-			"dimension": {
-				"restriction": "whitelist",
-				"value": [
-					107
-				]
-			}
-		},
-
 		"rocto_crag_rock": {
 			"distribution": "uniform",
 			"generator": {

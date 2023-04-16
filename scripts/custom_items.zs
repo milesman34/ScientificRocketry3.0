@@ -2,6 +2,7 @@
 
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Item;
+import mods.contenttweaker.Commands;
 
 // Registers an item
 function registerItem(name as string) {
@@ -231,3 +232,15 @@ item.onItemFoodEaten = function(stack, world, player) {
 };
 
 item.register();
+
+// Woodland mansion token (from Divine Journey 2)
+var mansion_compass = VanillaFactory.createItem("woodland_mansion_compass");
+mansion_compass.maxStackSize = 1;
+
+mansion_compass.itemRightClick = function(stack, world, player, hand) {
+    player.executeCommand("locate Mansion");
+	Commands.call("locate Mansion", player, world, false, true);
+    return "SUCCESS";
+};
+
+mansion_compass.register();

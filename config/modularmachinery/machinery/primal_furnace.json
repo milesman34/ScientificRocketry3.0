@@ -9,7 +9,7 @@
             "y": 2,
             "z": 3,
             "elements": [
-                "contenttweaker:adamantium_machine_casing@0"
+                "primalfurnacecasing"
             ]
         },
         {
@@ -57,7 +57,7 @@
             "y": 2,
             "z": -1,
             "elements": [
-                "contenttweaker:adamantium_machine_casing@0"
+                "primalfurnacecasing"
             ]
         },
         {
@@ -89,7 +89,7 @@
             "y": 2,
             "z": 3,
             "elements": [
-                "contenttweaker:adamantium_machine_casing@0"
+                "primalfurnacecasing"
             ]
         },
         {
@@ -113,7 +113,7 @@
             "y": 2,
             "z": -1,
             "elements": [
-                "contenttweaker:adamantium_machine_casing@0"
+                "primalfurnacecasing"
             ]
         },
         {
@@ -153,7 +153,7 @@
             "y": -2,
             "z": 3,
             "elements": [
-                "contenttweaker:adamantium_machine_casing@0"
+                "primalfurnacecasing"
             ]
         },
         {
@@ -177,7 +177,7 @@
             "y": -2,
             "z": 3,
             "elements": [
-                "contenttweaker:adamantium_machine_casing@0"
+                "primalfurnacecasing"
             ]
         },
         {
@@ -321,7 +321,7 @@
             "y": -2,
             "z": 0,
             "elements": [
-                "contenttweaker:adamantium_machine_casing@0"
+                "primalfurnacecasing"
             ]
         },
         {
@@ -329,7 +329,7 @@
             "y": 2,
             "z": 0,
             "elements": [
-                "contenttweaker:adamantium_machine_casing@0"
+                "primalfurnacecasing"
             ]
         },
         {
@@ -337,7 +337,7 @@
             "y": 2,
             "z": 2,
             "elements": [
-                "contenttweaker:adamantium_machine_casing@0"
+                "primalfurnacecasing"
             ]
         },
         {
@@ -353,7 +353,7 @@
             "y": -2,
             "z": 0,
             "elements": [
-                "contenttweaker:adamantium_machine_casing@0"
+                "primalfurnacecasing"
             ]
         },
         {
@@ -361,7 +361,7 @@
             "y": 2,
             "z": 0,
             "elements": [
-                "contenttweaker:adamantium_machine_casing@0"
+                "primalfurnacecasing"
             ]
         },
         {
@@ -393,7 +393,7 @@
             "y": 2,
             "z": 2,
             "elements": [
-                "contenttweaker:adamantium_machine_casing@0"
+                "primalfurnacecasing"
             ]
         },
         {
@@ -417,7 +417,7 @@
             "y": -2,
             "z": 2,
             "elements": [
-                "contenttweaker:adamantium_machine_casing@0"
+                "primalfurnacecasing"
             ]
         },
         {
@@ -433,7 +433,7 @@
             "y": -2,
             "z": 2,
             "elements": [
-                "contenttweaker:adamantium_machine_casing@0"
+                "primalfurnacecasing"
             ]
         },
         {
@@ -537,7 +537,7 @@
             "y": -2,
             "z": -1,
             "elements": [
-                "contenttweaker:adamantium_machine_casing@0"
+                "primalfurnacecasing"
             ]
         },
         {
@@ -561,7 +561,7 @@
             "y": -2,
             "z": -1,
             "elements": [
-                "contenttweaker:adamantium_machine_casing@0"
+                "primalfurnacecasing"
             ]
         }
     ]

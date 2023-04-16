@@ -1,0 +1,17 @@
+{
+	x: -1.0d,
+	y: 2.5d,
+	text: [
+		"This is one of the most difficult items you have needed to craft in the entire pack. It is the culmination of your efforts. It will unlock the Infinity Dimension."
+	],
+	dependencies: [
+		"17b054c6"
+	],
+	tasks: [{
+		uid: "f88c8cf2",
+		type: "item",
+		items: [{
+			item: "contenttweaker:infinite_catalyst"
+		}]
+	}]
+}

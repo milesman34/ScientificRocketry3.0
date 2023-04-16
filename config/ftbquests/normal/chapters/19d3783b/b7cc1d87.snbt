@@ -1,0 +1,18 @@
+{
+	title: "Creative AE2 Energy Cell",
+	x: -3.0d,
+	y: -1.5d,
+	text: [
+		"Infinite power for your ME system"
+	],
+	dependencies: [
+		"ee86e47b"
+	],
+	tasks: [{
+		uid: "c51a8ed6",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:creative_energy_cell"
+		}]
+	}]
+}

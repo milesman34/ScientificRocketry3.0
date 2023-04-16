@@ -11,37 +11,5 @@
 		uid: "176ae4c2",
 		type: "checkmark",
 		title: "Pack Intro"
-	}],
-	rewards: [{
-		uid: "33fa6bbd",
-		type: "item",
-		item: "minecraft:leather_helmet"
-	},
-	{
-		uid: "862bbf05",
-		type: "item",
-		item: "minecraft:leather_chestplate"
-	},
-	{
-		uid: "c0d967ed",
-		type: "item",
-		item: "minecraft:leather_leggings"
-	},
-	{
-		uid: "580a88a6",
-		type: "item",
-		item: "minecraft:leather_boots"
-	},
-	{
-		uid: "71b2e948",
-		type: "item",
-		item: "minecraft:torch",
-		count: 16
-	},
-	{
-		uid: "84bba2a3",
-		type: "item",
-		item: "minecraft:cooked_beef",
-		count: 8
 	}]
 }

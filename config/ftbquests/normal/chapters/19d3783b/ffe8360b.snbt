@@ -1,0 +1,28 @@
+{
+	x: -1.0d,
+	y: 6.5d,
+	text: [
+		"Congratulations! You can now get infinite of every item, and have completed the modpack!"
+	],
+	dependencies: [
+		"e9483ab4",
+		"621ef719"
+	],
+	tasks: [{
+		uid: "a9faa285",
+		type: "item",
+		items: [{
+			item: "storagedrawers:upgrade_creative 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "7ce3dccd",
+		type: "item",
+		item: "minecraft:tallgrass 1 1"
+	},
+	{
+		uid: "7b741ec0",
+		type: "item",
+		item: "minecraft:double_plant 1 2"
+	}]
+}

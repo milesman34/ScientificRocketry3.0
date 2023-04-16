@@ -202,6 +202,7 @@ item.contenttweaker.stellar_armor_plating.name=§bStellar Armor Plating
 item.contenttweaker.eternal_component.name=§dEternal Component
 item.contenttweaker.heart_of_the_smogus.name=§dHeart of the S'mogus
 item.contenttweaker.eternal_catalyst.name=§dEternal Catalyst
+item.contenttweaker.woodland_mansion_compass.name=§eWoodland Mansion Compass
 tile.contenttweaker.reinforced_pink_slime_block.name=Reinforced Pink Slime Block
 tile.contenttweaker.modularium_block.name=Modularium Block
 tile.contenttweaker.tough_alloy_block.name=Tough Alloy Block

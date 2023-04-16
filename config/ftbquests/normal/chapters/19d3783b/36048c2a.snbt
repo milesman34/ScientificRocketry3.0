@@ -1,0 +1,20 @@
+{
+	x: 0.0d,
+	y: 0.5d,
+	text: [
+		"100 million RF/t is a lot, isn't it?"
+	],
+	dependencies: [
+		"70ea2f9a"
+	],
+	tasks: [{
+		uid: "4813060d",
+		type: "item",
+		items: [{
+			id: "enderio:block_cap_bank",
+			tag: {
+				"enderio:energy": 1000000000
+			}
+		}]
+	}]
+}

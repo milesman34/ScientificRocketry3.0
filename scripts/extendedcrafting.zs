@@ -481,3 +481,12 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <extendedcrafting:interface>, [
 	[<ore:plateCrystaltine>, <threng:material:4>, <extendedcrafting:material:8>, <threng:material:4>, <ore:plateCrystaltine>], 
 	[<ore:plateCrystaltine>, <ore:plateCrystaltine>, <extracpus:crafting_storage_256k>, <ore:plateCrystaltine>, <ore:plateCrystaltine>]
 ]);
+
+// Woodland mansion compass
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:woodland_mansion_compass>, [
+	[null, <ore:plateLumium>, <ore:plateLumium>, <ore:plateLumium>, null], 
+	[<ore:plateLumium>, <rftools:remote_scanner>, <appliedenergistics2:sky_compass>, <rftools:remote_scanner>, <ore:plateLumium>], 
+	[<ore:plateLumium>, <appliedenergistics2:sky_compass>, <actuallyadditions:block_crystal_empowered:4>, <appliedenergistics2:sky_compass>, <ore:plateLumium>], 
+	[<ore:plateLumium>, <rftools:remote_scanner>, <appliedenergistics2:sky_compass>, <rftools:remote_scanner>, <ore:plateLumium>], 
+	[null, <ore:plateLumium>, <ore:plateLumium>, <ore:plateLumium>, null]
+]);

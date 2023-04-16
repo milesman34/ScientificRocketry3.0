@@ -1,5 +1,6 @@
 {
 	title: "Empowerer",
+	icon: "actuallyadditions:block_empowerer",
 	x: -3.5d,
 	y: 8.0d,
 	text: [

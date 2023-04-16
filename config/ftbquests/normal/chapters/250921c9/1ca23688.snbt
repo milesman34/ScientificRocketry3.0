@@ -1,6 +1,10 @@
 {
 	x: -3.5d,
 	y: 3.0d,
+	description: "You can make your first steel in the Induction Smelter",
+	text: [
+		""
+	],
 	dependencies: [
 		"032ce105"
 	],

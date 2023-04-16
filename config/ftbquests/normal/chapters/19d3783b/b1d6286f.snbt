@@ -1,0 +1,18 @@
+{
+	x: 0.0d,
+	y: -0.5d,
+	description: "Yes, this is a real item.",
+	text: [
+		""
+	],
+	dependencies: [
+		"ed5e22eb"
+	],
+	tasks: [{
+		uid: "3faabdd6",
+		type: "item",
+		items: [{
+			item: "contenttweaker:heart_of_the_smogus"
+		}]
+	}]
+}

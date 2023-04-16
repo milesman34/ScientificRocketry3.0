@@ -1,0 +1,19 @@
+{
+	x: -5.5d,
+	y: 4.5d,
+	text: [
+		"This lets you store infinite items in a Storage Drawer. Although you could always use a Black Hole Unit/Tank for that...",
+		"",
+		"It is used in other recipes though, so you'll still need to automate this."
+	],
+	dependencies: [
+		"2e25d73f"
+	],
+	tasks: [{
+		uid: "47f691af",
+		type: "item",
+		items: [{
+			item: "storagedrawers:upgrade_creative"
+		}]
+	}]
+}

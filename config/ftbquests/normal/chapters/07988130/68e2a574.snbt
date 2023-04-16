@@ -1,0 +1,20 @@
+{
+	x: -6.5d,
+	y: 5.5d,
+	description: "7x7 Crafting",
+	text: [
+		""
+	],
+	dependencies: [
+		"fb371b5e",
+		"7185b1ca",
+		"abe67ee9"
+	],
+	tasks: [{
+		uid: "1859a6f2",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:table_elite"
+		}]
+	}]
+}

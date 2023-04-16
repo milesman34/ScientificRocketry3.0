@@ -1,0 +1,17 @@
+{
+	x: -1.0d,
+	y: 1.5d,
+	text: [
+		"This is made from every singularity in the pack. These aren't the typical singularities you'd expect, as most of them are not just raw materials."
+	],
+	dependencies: [
+		"70ea2f9a"
+	],
+	tasks: [{
+		uid: "5bf80a32",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:singularity_ultimate"
+		}]
+	}]
+}

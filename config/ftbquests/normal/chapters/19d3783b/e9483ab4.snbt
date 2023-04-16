@@ -1,0 +1,17 @@
+{
+	x: -1.0d,
+	y: 5.5d,
+	text: [
+		"This is truly the ultimate catalyst, the item which will unlock the ultimate ability...the infinite duplication of everything."
+	],
+	dependencies: [
+		"98657b84"
+	],
+	tasks: [{
+		uid: "207aebcb",
+		type: "item",
+		items: [{
+			item: "contenttweaker:eternal_catalyst"
+		}]
+	}]
+}

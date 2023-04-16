@@ -7,9 +7,7 @@
 	text: [
 		"The Warp Controller can be provided with Dilithium to let your space station travel to other planets.",
 		"",
-		"It can also be used to research for other planets, using 100 of each data.",
-		"",
-		"It can also be provided with artifacts to allow it to go to certain specific planets."
+		"It can be provided with artifacts to allow it to go to certain specific planets."
 	],
 	dependencies: [
 		"3a5b48dd"

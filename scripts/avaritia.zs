@@ -79,7 +79,7 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<avaritia:resource:5>, 21474
 	<opencomputers:component:18>,
 	<opencomputers:component:12>,
 	<opencomputers:upgrade:32>,
-	<ae2wtlib:infinity_booster_card>
+	<appliedenergistics2:material:59>
 ]);
 
 // Infinity ingot

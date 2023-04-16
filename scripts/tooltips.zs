@@ -158,3 +158,19 @@
 
 // Disable factorizer bc dupe bug
 <thermalexpansion:device:10>.addTooltip(format.red("Disabled due to duplication bug"));
+
+// Totem of undying
+<minecraft:totem_of_undying>.addTooltip(format.aqua("Use the Woodland Mansion Compass (requires cheats enabled)"));
+
+// Modmach upgrades
+<thermalfoundation:storage:8>.addTooltip(format.aqua("Metallurgic Fabricator upgrade"));
+<extendedcrafting:storage:3>.addTooltip(format.aqua("Metallurgic Fabricator upgrade"));
+<avaritia:block_resource:2>.addTooltip(format.aqua("Metallurgic Fabricator upgrade"));
+<avaritia:block_resource:2>.addTooltip(format.aqua("Advanced Metallurgic Fabricator upgrade"));
+<contenttweaker:adamantium_block>.addTooltip(format.aqua("Advanced Metallurgic Fabricator upgrade"));
+<extendedcrafting:storage:4>.addTooltip(format.aqua("Advanced Metallurgic Fabricator upgrade"));
+<extendedcrafting:storage:4>.addTooltip(format.aqua("Advanced Assembler upgrade"));
+<environmentaltech:structure_frame_6>.addTooltip(format.aqua("Advanced Assembler upgrade"));
+<mekanismgenerators:reactor:1>.addTooltip(format.aqua("Advanced Assembler upgrade"));
+<avaritia:block_resource:1>.addTooltip(format.aqua("Cosmic Forge upgrade"));
+<contenttweaker:eternity_block>.addTooltip(format.aqua("Cosmic Forge upgrade"));

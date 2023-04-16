@@ -13,7 +13,10 @@
 		uid: "b8929ba4",
 		type: "item",
 		items: [{
-			item: "advancedrocketry:spacechestplate"
+			id: "advancedrocketry:spacechestplate",
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -22,7 +25,10 @@
 		uid: "0ca218b2",
 		type: "item",
 		items: [{
-			item: "advancedrocketry:spaceboots"
+			id: "advancedrocketry:spaceboots",
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -31,7 +37,10 @@
 		uid: "68815951",
 		type: "item",
 		items: [{
-			item: "advancedrocketry:spacehelmet"
+			id: "advancedrocketry:spacehelmet",
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -40,7 +49,10 @@
 		uid: "f580d4e8",
 		type: "item",
 		items: [{
-			item: "advancedrocketry:spaceleggings"
+			id: "advancedrocketry:spaceleggings",
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

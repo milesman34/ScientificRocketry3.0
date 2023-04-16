@@ -3,6 +3,167 @@
     "localizedname": "Advanced Assembler",
     "color": "4A4EA0",
     "requires-blueprint": true,
+    "modifiers": [
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": "extendedcrafting:storage@4",
+            "description": "Replace Tritium Lamp, do 2x as many recipes at once",
+            "modifiers": [
+            {
+                "io": "input",
+                "target": "item",
+                "operation": 1,
+                "multiplier": 2
+            },
+            {
+                "io": "output",
+                "target": "item",
+                "operation": 1,
+                "multiplier": 2
+            },
+            {
+                "io": "input",
+                "target": "fluid",
+                "operation": 1,
+                "multiplier": 2
+            },
+            {
+                "io": "input",
+                "target": "energy",
+                "operation": 1,
+                "multiplier": 2
+            }
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": [1, 3],
+            "elements": "environmentaltech:structure_frame_6",
+            "description": "Replace Turbine Casings, 1.5x speed, 2.5x RF/t usage",
+            "modifiers": [
+                {
+                    "io": "input",
+                    "target": "duration",
+                    "operation": 1,
+                    "multiplier": 0.934655
+                },
+                {
+                    "io": "input",
+                    "target": "energy",
+                    "operation": 1,
+                    "multiplier": 1.0888668
+                }
+            ]
+        },
+        {
+            "x": 0,
+            "y": [-1, 1],
+            "z": 2,
+            "elements": "environmentaltech:structure_frame_6",
+            "description": "Replace Turbine Casings, 1.5x speed, 2.5x RF/t usage",
+            "modifiers": [
+                {
+                    "io": "input",
+                    "target": "duration",
+                    "operation": 1,
+                    "multiplier": 0.934655
+                },
+                {
+                    "io": "input",
+                    "target": "energy",
+                    "operation": 1,
+                    "multiplier": 1.0888668
+                }
+            ]
+        },
+        {
+            "x": [-1, 1],
+            "y": 0,
+            "z": 2,
+            "elements": "environmentaltech:structure_frame_6",
+            "description": "Replace Turbine Casings, 1.5x speed, 2.5x RF/t usage",
+            "modifiers": [
+                {
+                    "io": "input",
+                    "target": "duration",
+                    "operation": 1,
+                    "multiplier": 0.934655
+                },
+                {
+                    "io": "input",
+                    "target": "energy",
+                    "operation": 1,
+                    "multiplier": 1.0888668
+                }
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": [1, 3],
+            "elements": "mekanismgenerators:reactor@1",
+            "description": "Replace Turbine Casings, 2x speed, 5x RF/t usage",
+            "modifiers": [
+                {
+                    "io": "input",
+                    "target": "duration",
+                    "operation": 1,
+                    "multiplier": 0.890898
+                },
+                {
+                    "io": "input",
+                    "target": "energy",
+                    "operation": 1,
+                    "multiplier": 1.164993
+                }
+            ]
+        },
+        {
+            "x": 0,
+            "y": [-1, 1],
+            "z": 2,
+            "elements": "mekanismgenerators:reactor@1",
+            "description": "Replace Turbine Casings, 2x speed, 5x RF/t usage",
+            "modifiers": [
+                {
+                    "io": "input",
+                    "target": "duration",
+                    "operation": 1,
+                    "multiplier": 0.890898
+                },
+                {
+                    "io": "input",
+                    "target": "energy",
+                    "operation": 1,
+                    "multiplier": 1.164993
+                }
+            ]
+        },
+        {
+            "x": [-1, 1],
+            "y": 0,
+            "z": 2,
+            "elements": "mekanismgenerators:reactor@1",
+            "description": "Replace Turbine Casings, 2x speed, 5x RF/t usage",
+            "modifiers": [
+                {
+                    "io": "input",
+                    "target": "duration",
+                    "operation": 1,
+                    "multiplier": 0.890898
+                },
+                {
+                    "io": "input",
+                    "target": "energy",
+                    "operation": 1,
+                    "multiplier": 1.164993
+                }
+            ]
+        }
+    ],
     "parts": [
         {
             "x": -1,

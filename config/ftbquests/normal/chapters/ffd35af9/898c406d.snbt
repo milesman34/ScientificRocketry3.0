@@ -13,6 +13,9 @@
 			tag: {
 				Energy: 0,
 				JetpackParticle: 0
+			},
+			ForgeCaps: {
+				"ocdevices:item_analyze": {}
 			}
 		}],
 		ignore_nbt: 1b
