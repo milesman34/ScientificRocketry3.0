@@ -33,3 +33,10 @@ recipes.addShaped(<minecraft:end_crystal>, [
 	[<thermalfoundation:glass_alloy:7>, <ore:pearlEnderEye>, <thermalfoundation:glass_alloy:7>], 
 	[<quark:biotite_block>, <deepmoblearning:pristine_matter_ghast>, <quark:biotite_block>]
 ]);
+
+// Craft quark chest to chest
+recipes.addShapeless(<minecraft:chest>, [<quark:custom_chest:0>]);
+recipes.addShapeless(<minecraft:chest>, [<quark:custom_chest:1>]);
+recipes.addShapeless(<minecraft:chest>, [<quark:custom_chest:2>]);
+recipes.addShapeless(<minecraft:chest>, [<quark:custom_chest:3>]);
+recipes.addShapeless(<minecraft:chest>, [<quark:custom_chest:4>]);
